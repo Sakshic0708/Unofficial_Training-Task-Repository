@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <style>
+        ol{
+            list-style-type: none;
+            width: 170px;
+            height: 480px;
+        }
+        li{
+            height: 30px;
+            width: 150px;
+            border: 1px solid black;
+            margin: 2px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fruits li{
+            background-color: lightgray;
+        }
+        #vegetables li{
+            background-color: darksalmon;
+        }
+        #toys li{
+            background-color: skyblue;
+        }
+        #items li{
+            background-color: plum;
+        }
+        fieldset{
+            float: left;
+            margin: 30px;
+            width: 200px;
+            height: 500px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="left">
+        <legend><b>Fruits</b></legend>
+        <ol id="fruits" class="connectedSortable">
+            <li id="mango">Mango</li>
+            <li id="carrot">Carrot</li>
+            <li id="banana">Banana</li>
+            <li id="tomato">Tomato</li>
+            <li id="strawberry">Strawberry</li>
+            <li id="brocoli">Brocoli</li>
+            <li id="orange">Orange</li>
+        </ol>
+    </fieldset>
+     <fieldset id="right">
+        <legend><b>Vegetables</b></legend>
+        <ol id="vegetables" class="connectedSortable">
+            <li id="cherry">Cherry</li>
+            <li id="pumpkin">Pumpkin</li>
+            <li id="apple">Apple</li>
+            <li id="capsicum">Capsicum</li>
+            <li id="potato">Potato</li>
+            <li id="grapes">Grapes</li>
+            <li id="brinjal">Brinjal</li>
+        </ol>
+    </fieldset>
+    <fieldset id="between">
+        <legend><b>Toys</b></legend>
+        <ol id="toys" class="connectedSortable">
+            <li id="teddybear">TeddyBear</li>
+            <li id="micky">Micky</li>
+            <li id="mini">Mini</li>
+            <li id="truck">Truck</li>
+            <li id="ball">Ball</li>
+            <li id="kites">Kites</li>
+            <li id="car">Car</li>
+        </ol>
+    </fieldset>
+    <fieldset id="last">
+        <legend><b>Items</b></legend>
+        <ol id="items"  class="connectedSortable">
+            <li id="bottle">Bottle</li>
+            <li id="mobile">Mobile</li>
+            <li id="keyboard">Keyboard</li>
+            <li id="mouse">Mouse</li>
+            <li id="cable">Cable</li>
+            <li id="watch">Watch</li>
+            <li id="pen">Pen</li>
+        </ol>
+    </fieldset>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#fruits").sortable({connectWith:".connectedSortable"});
+        $("#vegetables").sortable({connectWith:".connectedSortable"});
+        $("#toys").sortable({connectWith:".connectedSortable"});
+        $("#items").sortable({connectWith:".connectedSortable"});
+
+              
+        // dragula([document.getElementById(left), document.getElementById(right)], {
+        // copy: true
+        // });
+
+              
+// dragula([document.getElementById(left), document.getElementById(right)], {
+//   copy: function (el, source) {
+//     return source === document.getElementById(left)
+//   },
+//   accepts: function (el, target) {
+//     return target !== document.getElementById(left)
+//   }
+// });
+      
+    })
+</script>
+</html>

@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standardizer</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./Standardizer.css">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="./Standardizer_logo.png" alt="">
+            </a>
+            <button class="navbar-toggler "  type="button" data-bs-toggle="collapse"
+                data-bs-target="#ResponsiveNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="ResponsiveNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active" aria-current="page" style="color: #93CCEA;">CoA</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                      <img alt="profile-image" class="rounded-circle" src="./user.png" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-4">
+        <div class="row p-0">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-11 col-lg-11 col-xl-11">
+            <div class="btn-group justify-content-start" role="group" >
+                <input type="radio" class="btn-check" name="AccountTypeName" id="Assets" autocomplete="off" checked>
+                <label class="btn mx-2 rounded" for="Assets">Assets</label>
+              
+                <input type="radio" class="btn-check" name="AccountTypeName" id="Liability" autocomplete="off">
+                <label class="btn me-2 rounded" for="Liability">Liability</label>
+              
+                <input type="radio" class="btn-check" name="AccountTypeName" id="Equity/Capital" autocomplete="off">
+                <label class="btn me-2 rounded" for="Equity/Capital">Equity/Capital</label>
+
+                <input type="radio" class="btn-check" name="AccountTypeName" id="Revenue" autocomplete="off">
+                <label class="btn me-2 rounded" for="Revenue">Revenue</label>
+
+                <input type="radio" class="btn-check" name="AccountTypeName" id="CoGs" autocomplete="off">
+                <label class="btn me-2 rounded" for="CoGs">CoGs</label>
+
+                <input type="radio" class="btn-check" name="AccountTypeName" id="G&A Expenses" autocomplete="off">
+                <label class="btn me-2 rounded" for="G&A Expenses">G&A Expenses</label>
+
+                <input type="radio" class="btn-check" name="AccountTypeName" id="Other Revenue & G&A Expenses" autocomplete="off">
+                <label class="btn me-2 rounded" for="Other Revenue & G&A Expenses">Other Revenue & G&A Expenses</label>
+              </div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 text-end">
+                 <input type="button" class="btn" id="Submit" name="submit" value="Submit">
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <i class="fa fa-circle-o">&nbsp;Human Updated</i>
+            </div>
+        </div>
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 mt-1">
+            <div class="col justify-content-start">
+                <h6><b>Source Account Structure</b></h6>
+                <div class="mt-3 p-2 rounded" id="BalanceSheetButton">Balance Sheet Accounts</div>
+                <div id="StandardDataDiv"></div>
+            </div>
+            <div class="col">
+                <h6><b>Likely Destination Account</b></h6>
+                <div class="mt-3 p-2 rounded" id="MostLikelyButton">Most Likely</div>
+                <div id="MostLikelyDiv"></div>
+            </div>
+            <div class="col">
+                <h6><b style="color: white">Account</b></h6>
+                <div class="mt-3 p-2 rounded" id="LikelyButton">Likely</div>
+                <div id="LikelyDiv"></div>
+            </div>
+            <div class="col">
+                <h6><b style="color: white">Account</b>
+                <div class="mt-3 p-2 rounded" id="PossibleButton">Possible</div>
+                <div id="PossibleDiv"></div>
+            </div>
+            <div class="col">
+                <h6><b>Destination Account Structure</b>
+                <div class="mt-3 p-2 rounded" id="BalanceSheetAccountButton">Balance Sheet Accounts</div>
+              
+                        <div class="scrollbar" id="BlueScroll">
+                            <div class="force-overflow">
+                                <nav id="menu-container" class="arrow border mt-1">
+                                    <div id="btn-nav-previous">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
+                                                viewBox="0 0 24 24">
+                                          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                                          <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                      </div>
+                                      <div id="btn-nav-next">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
+                                                viewBox="0 0 24 24">
+                                          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                                          <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                      </div>
+                                    <div class="menu-inner-box ">
+                                      <div class="menu mt-1">
+                                        <a class="menu-item active" href="#" data-value="All-Data" id="All-Data">All</a>
+                                        <a class="menu-item" href="#" data-value="Assets">Assets</a>
+                                        <a class="menu-item" href="#" data-value="Liability">Liability</a>
+                                        <a class="menu-item" href="#" data-value="Equity/Capital">Equity/Capital</a>
+                                        <a class="menu-item" href="#" data-value="Revenue">Revenue</a>
+                                        <a class="menu-item" href="#" data-value="CoGs">CoGs</a>
+                                        <a class="menu-item" href="#" data-value="Expenses">G&A Expenses</a>
+                                        <a class="menu-item last-item" href="#" data-value="Other">Other Revenue & G&A Expenses</a>
+                                      </div>
+                                    </div>
+                                  </nav>
+                               <div> <input id="myInput" type="text" placeholder="Search Account Here.." class="border SearchBar" style="width:100%; border-top: 0px;"></div>
+                                    <div id="MasterDataDiv">
+
+                            </div>
+                          </div>
+                    </div>
+                  
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#HistoryModal">
+                Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="HistoryModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">History</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6 style="color: #00A5E5"><b>1001--Cash</b></h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 line">
+                                <p><b>ML:</b> 1001--Petty Cash; <b>L:</b> 1010--Primary Checking Account; <b>P:</b>1011--Secondary Checking Account</p>
+                                <p>Last Updated By Brian on 07-24-2020 - 08:25am</p>
+                                <hr>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-12 line">
+                                <p><b>ML:</b> 1012--Savings Account; <b>L:</b>1010--Primary Checking Account; <b>P:</b>1014--Money Market Account</p>
+                                <p>Last Updated By Dixit on 07-22-2020 - 09:15am</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 line">
+                                <p><b>ML:</b> 1100--Accounts Receivable; <b>L:</b>1002--Cash in Daily Drawer; <b>P:</b>1003--Undeposited Funds</p>
+                                <p>Last Updated By Chintan on 07-21-2020 - 05:08pm</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 line">
+                                <p><b>ML:</b> 1002--Cash in Daily Drawer; <b>L:</b>1010--Accounts Receivable; <b>P:</b>1014--Undeposited Funds</p>
+                                <p>Last Updated By Machine Learning on 07-18-2020 - 12:30pm</p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./Standardizer.js"></script>
+</body>
+
+</html>
