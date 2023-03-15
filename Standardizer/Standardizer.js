@@ -18,20 +18,35 @@ function csvToJson(csv)
   }
 
 $(document).ready(function (){
+         
+    function AllData(){
+        $.get('./MasterChartOfAcounts - Sheet1.csv', function(csvMasterChartData) {
+            var MasterTableData = csvToJson(csvMasterChartData);
    
+        for (var i=0; i < MasterTableData.length; i++){
+            var MasterData = MasterTableData[i];
+            if(MasterData.Number != ""){
+                $("#MasterDataDiv").append("<div class='MasterInnerDiv small d-flex'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
+            }
+        };
+    });
+   }
+    AllData();
+    // Search Bar
      $("#myInput").on("keyup", function(){
         var value = $(this).val().toLowerCase();
         $("#MasterDataDiv *").filter(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
         });
     });
+    // Navbar ScrollBar <> SVG
     $('#btn-nav-previous').click(function(){
         $(".menu-inner-box").animate({scrollLeft: "-=100px"});
     }); 
     $('#btn-nav-next').click(function(){
         $(".menu-inner-box").animate({scrollLeft: "+=100px"});
     });
-       
+    // Navbar Li Click Event Particular Data Call
         $('.menu-item').click(function (){
             var ValueOfNav = $(this).data("value");
             const NameValueCompare = {
@@ -45,10 +60,10 @@ $(document).ready(function (){
             };
             ComparedData = NameValueCompare[ValueOfNav];
             $("#MasterDataDiv").html('');
-
+            // Read CSV Of MasterChartOfAccounts
             $.get('./MasterChartOfAcounts - Sheet1.csv', function(csvMasterChartData) {
             var MasterTableData = csvToJson(csvMasterChartData);
-            console.log(MasterTableData);
+            // console.log(MasterTableData);
 
             for (var i=0; i < MasterTableData.length; i++){
                 var MasterData = MasterTableData[i];
@@ -60,35 +75,18 @@ $(document).ready(function (){
                     }
                 }
             };
-            $('#All-Data').click(function(){
-            for (var i=0; i < MasterTableData.length; i++){
-                var MasterData = MasterTableData[i];
-                if(MasterData.Number != ""){
-                    $("#MasterDataDiv").append("<div class='MasterInnerDiv small d-flex'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
-                }
-            };
-            });
         });
     });
-     
-    // $.get('./MasterChartOfAcounts - Sheet1.csv', function(csvMasterChartData) {
-    //     var MasterTableData = csvToJson(csvMasterChartData);
-    //     console.log(MasterTableData);
-    //     var assetsData = MasterTableData.filter(function(data) {
-    //       return data.AccountType === "Assets";
-    //     });
-    //     var menu = "<div class='menu mt-1'>";
-    //     for (var i=0; i < assetsData.length; i++) {
-    //       var asset = assetsData[i];
-    //       menu += "<a class='menu-item' href='#'>" + asset.AccountName + "</a>";
-    //     }
-    //     menu += "</div>";
-    //     $(".menu-inner-box").html(menu);
-    //   });
-      
+    // All Data Click functionality
+     $(document).on("click","#AllData",function(){
+        AllData();
+     })
+         
+    
+    // Standard CoFA Read File 
     $.get('./Standard CofA.csv', function(csvStandardCofA) {
         var StandardCofData = csvToJson(csvStandardCofA);
-        console.log(StandardCofData);
+        // console.log(StandardCofData);
         for (var i=0; i < StandardCofData.length; i++)
         {
             var StandardData = StandardCofData[i];
