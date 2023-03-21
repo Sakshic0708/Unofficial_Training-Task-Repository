@@ -147,18 +147,25 @@ nav#menu-container {
 .last-item{
 margin-right: 50px;
 }
+
 #btn-nav-previous,#btn-nav-next{
     color: black !important;
 }
 .material-icons{
     color: black !important;
 }
-.MasterInnerDiv, .StandardInnerDiv{
+.MasterInnerDiv{
     padding: 5px;
     border: 1px solid #dee2e6!important;
     margin-top: 4px;
-    /* overflow: hidden;
-    white-space: nowrap; */
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.StandardInnerDiv{
+    padding: 5px;
+    border: 1px solid #dee2e6!important;
+    margin-top: 4px;
 }
 .MostLikelyInnerDiv,.PossibleInnerDiv,.LikelyInnerDiv{
     padding: 15px;
@@ -181,6 +188,7 @@ margin-right: 50px;
 .material-icons{
     font-size: 20px;
 }
+
 .icon{
     font-size: 17px !important;
 }

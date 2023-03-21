@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            text-align: center;
+            border: 1px solid #d3d3d3;
+            width: 100px;
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            background-color: #2196F3;
+            color: #fff;
+        }
+
+
+        .div3 {
+            position: absolute;
+            text-align: center;
+            border: 1px solid #d3d3d3;
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            height: 20px;
+            background-color: white;
+            width: 20px;
+            color: #fff;
+        }
+
+
+        .div {
+            text-align: center;
+            padding: 10px;
+            cursor: move;
+            background-color: #2196F3;
+            color: #fff;
+        }
+
+        td {
+            border: 1px solid #d3d3d3;
+            padding: 10px;
+            height: 20px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <h1>Input text:</h1>
+    <p>input text and it will become a draggable div. You can then drag it to one of the tds </p>
+    <input id="input" type="text" value="text">
+    <button onclick="addElement()">input</button>
+
+    <p>Drag your outputs to the div:</p>
+
+    <table border="1">
+        <tr>
+            <td height="50" width=100></td>
+            <td height="50" width=100></td>
+            <td height="50" width=100></td>
+        </tr>
+    </table>
+
+    <script>
+        var text;
+        var selectedText;
+        var inputBox = document.getElementById("input");
+
+        function showInputBox() {
+            inputBox.style.display = "block";
+        }
+
+        function addElement() {
+            text = document.getElementById("input").value;
+
+            // create a new div element and give it a unique id
+            var newDiv = document.createElement("div");
+            newDiv.id = 'temp'
+
+            // and give it some content
+            var newContent = document.createTextNode(text);
+
+            // add the text node to the newly created div
+            newDiv.appendChild(newContent);
+
+            // add the newly created element and its content into the DOM
+            var currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+
+            $(function () {
+
+
+                $("div").draggable({
+                    drag: function (e) {
+                        selectedText = event.target;
+                        text = $(selectedText).html();
+                    }
+                });
+                $("#temp").draggable({
+                    drag: function (e) {
+                        selectedText = event.target;
+                        text = $(selectedText).html();
+                    }
+                });
+
+
+
+                $("td").droppable({
+                    drop: function (event, ui) {
+                        var selectedDiv = event.target;
+                        $(this)
+                            .addClass("div")
+                            .html(text);
+                        $("div").draggable();
+
+                        $("#temp").remove();
+                    }
+                });
+            });
+            document.getElementById("input").value = " ";
+        }
+
+        function addRedElement() {
+            text = document.getElementById("input").value;
+
+            // create a new div element and give it a unique id
+            var newDiv = document.createElement("div");
+            newDiv.style.backgroundColor = "red";
+            newDiv.id = 'temp'
+
+            // and give it some content
+            var newContent = document.createTextNode(text);
+
+            // add the text node to the newly created div
+            newDiv.appendChild(newContent);
+
+            // add the newly created element and its content into the DOM
+            var currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+
+            $(function () {
+
+
+                $("div").draggable({
+                    drag: function (e) {
+                        console.log('being dragged');
+                        selectedText = event.target;
+                        text = $(selectedText).html();
+                        console.log(text);
+                    }
+                });
+                $("#temp").draggable({
+                    drag: function (e) {
+                        console.log('being dragged');
+                        selectedText = event.target;
+                        text = $(selectedText).html();
+                        console.log(text);
+                    }
+                });
+
+
+
+                $("td").droppable({
+                    drop: function (event, ui) {
+                        var selectedDiv = event.target;
+                        $(this)
+                            .addClass("div")
+                            .html(text);
+                        $("div").draggable();
+
+                        $("#temp").remove();
+                    }
+                });
+            });
+            document.getElementById("input").value = " ";
+        }
+    </script>
+
+</body>
+
+</html>

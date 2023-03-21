@@ -13,6 +13,7 @@ function csvToJson(csv) {
     }
     return ConvertedJSOnData; //Javascript Object
 }
+
 function search() {
     let input = document.getElementById("SearchBar").value.toLowerCase();
     let x = document.getElementsByClassName("className");
@@ -28,7 +29,6 @@ function search() {
   
 
 $(document).ready(function () {
-
     function AllData() {
         $.get('./MasterChartOfAcounts - Sheet1.csv', function (csvMasterChartData) {
             var MasterTableData = csvToJson(csvMasterChartData);
@@ -36,16 +36,33 @@ $(document).ready(function () {
             for (var i = 0; i < MasterTableData.length; i++) {
                 var MasterData = MasterTableData[i];
                 if (MasterData.Number != "") {
-                    $("#MasterDataDiv").append("<div class='MasterInnerDiv small d-flex'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
+                    $("#MasterDataDiv").append("<div class='MasterInnerDiv small'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
                 }
             };
         });
     }
     AllData();
+    function SourceAllData(){
+        $.get('./Standard_one.csv', function (csvStandardCofA) {
+            var StandardCofData = csvToJson(csvStandardCofA);
+            for (var i = 0; i < StandardCofData.length; i++) {
+                var StandardData = StandardCofData[i];
+                    if (StandardData.Number != "") {
+                    $("#StandardDataDiv").append("<div class='StandardInnerDiv small d-flex justify-content-between'>" + " " + StandardData.Number + " " + StandardData.Name + "<i class='material-icons icon history'>done_all history</i></div>");
+
+                    $("#MostLikelyDiv").append("<div class='MostLikelyInnerDiv'>" + " " + "</div>");
+                    $("#LikelyDiv").append("<div class='LikelyInnerDiv'>" + " " + "</div>");
+                    $("#PossibleDiv").append("<div class='PossibleInnerDiv'>" + " " + "</div>");
+                    }
+                }
+            });
+            
+    }
+    SourceAllData();
+
     $(document).on("click", ".history", function() {
         $("#HistoryModal").modal("show");
     });
-    
 
     // When a radio button is clicked
     $('input[name="AccountTypeName"]').click(function () {
@@ -87,7 +104,7 @@ $(document).ready(function () {
                 var MasterData = MasterTableData[i];
                 if (MasterData.AccountTypeName == ComparedData) {
                     if (MasterData.Number != "") {
-                        $("#MasterDataDiv").append("<div class='MasterInnerDiv small d-flex'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
+                        $("#MasterDataDiv").append("<div class='MasterInnerDiv small'><i class=' material-icons'>drag_indicator</i>" + " " + MasterData.AccountCode + "--" + MasterData.AccountName + "</div>");
                     }
                 }
             };
@@ -97,7 +114,7 @@ $(document).ready(function () {
     $(document).on("click", "#AllData", function () {
         AllData();
     })
-
+  
     $('.comparedData').click(function () {
         var ButtonValue = $(this).data("button-link");
         const NameValueCompare = {
@@ -135,16 +152,25 @@ $(document).ready(function () {
 
 });
 new Sortable(document.getElementById('MostLikelyDiv'), {
-    group: 'shared',
-    animation: 100
+    group:{
+        name:"shared",
+    },
+    animation: 100,
+    sort: false
   });
   new Sortable(document.getElementById('LikelyDiv'), {
-    group: 'shared',
-    animation: 100
+    group:{
+        name:"shared",
+    },
+    animation: 100,
+    sort: false
   });
   new Sortable(document.getElementById('PossibleDiv'), {
-    group: 'shared',
-    animation: 100
+    group:{
+        name:"shared",
+    },
+    animation: 100,
+    sort: false
   });
 new Sortable(document.getElementById('MasterDataDiv'), {
     group:{

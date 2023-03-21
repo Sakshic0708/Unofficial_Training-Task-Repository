@@ -16,8 +16,8 @@
     <!-- Main Navnar -->
     <nav class="navbar sticky-top navbar-expand-lg p-0">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./Standardizer_logo.png" alt=""  id="StandardizerLogo">
+            <a class="navbar-brand" href="">
+                <img src="./Standardizer_logo.png" alt=""  id="StandardizerLogo" onclick="SourceAllData()">
             </a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#ResponsiveNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -40,11 +40,11 @@
     <div class="container-fluid p-4" id="Onload">
         <div class="row p-0">
             <!-- Buttons -->
-            <div class="col-12 col-xs-12 col-sm-12 col-md-11 col-lg-11 col-xl-11">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-11 col-lg-11 col-xl-11 ">
                 <div class="btn-group justify-content-start " role="group" id="TypeButton">
 
-                    <input type="radio" class="btn-check comparedData" data-button-link="Assets" name="AccountTypeName"  id="Assets" autocomplete="off" checked>
-                    <label class="btn mx-2 rounded" for="Assets">Assets</label>
+                    <input type="radio" class="btn-check comparedData" data-button-link="Assets" name="AccountTypeName"  id="Assets" autocomplete="off">
+                    <label class="btn mx-2 rounded" for="Assets" id="Assets">Assets</label>
 
                     <input type="radio" class="btn-check comparedData" data-button-link="Liability" name="AccountTypeName" id="Liability" autocomplete="off" data-value="">
                     <label class="btn me-2 rounded" for="Liability">Liability</label>
@@ -63,8 +63,7 @@
 
                     <input type="radio" class="btn-check comparedData" name="AccountTypeName" data-button-link="Other" id="Other Revenue & G&A Expenses"
                         autocomplete="off">
-                    <label class="btn me-2 rounded" for="Other Revenue & G&A Expenses">Other Revenue & G&A
-                        Expenses</label>
+                    <label class="btn me-2 rounded" for="Other Revenue & G&A Expenses">Other Revenue & Expense</label>
                 </div>
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 text-end">
@@ -120,14 +119,14 @@
                             </div>
                             <div class="menu-inner-box ">
                                 <div class="menu  mt-1">
-                                    <a class="menu-item " id="AllData">All</a>
-                                    <a class="menu-item" data-value="Assets" data-button-link="Assets">Assets</a>
-                                    <a class="menu-item" data-value="Liability" data-button-link="Liability">Liability</a>
-                                    <a class="menu-item" data-value="Equity/Capital" data-button-link="Equity/Capital">Equity/Capital</a>
-                                    <a class="menu-item" data-value="Revenue" data-button-link="Revenue">Revenue</a>
-                                    <a class="menu-item" data-value="CoGs" data-button-link="CoGs">CoGs</a>
-                                    <a class="menu-item" data-value="Expenses" data-button-link="G&A Expenses">G&A Expenses</a>
-                                    <a class="menu-item last-item" data-value="Other" data-button-link="Other">Other Revenue & G&A Expenses</a>
+                                    <a class="menu-item " id="AllData"><b>All</b></a>
+                                    <a class="menu-item" data-value="Assets" data-button-link="Assets"><b>Assets</b></a>
+                                    <a class="menu-item" data-value="Liability" data-button-link="Liability"><b>Liability</b></a>
+                                    <a class="menu-item" data-value="Equity/Capital" data-button-link="Equity/Capital"><b>Equity/Capital</b></a>
+                                    <a class="menu-item" data-value="Revenue" data-button-link="Revenue"><b>Revenue</b></a>
+                                    <a class="menu-item" data-value="CoGs" data-button-link="CoGs"><b>CoGs</b></a>
+                                    <a class="menu-item" data-value="Expenses" data-button-link="G&A Expenses"><b>G&A Expenses</b></a>
+                                    <a class="menu-item last-item" data-value="Other" data-button-link="Other"><b>Other Revenue & Expense</b></a>
                                 </div>
                             </div>
                         <!-- Inner Navbar Close -->
