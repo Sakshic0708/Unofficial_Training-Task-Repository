@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\C#\Day1_Task\bin\Debug\Day1_Task.exe.config
+D:\Sakshi Chauhan\C#\Day1_Task\bin\Debug\Day1_Task.exe
+D:\Sakshi Chauhan\C#\Day1_Task\bin\Debug\Day1_Task.pdb
+D:\Sakshi Chauhan\C#\Day1_Task\obj\Debug\Day1_Task.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\Day1_Task\obj\Debug\Day1_Task.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\Day1_Task\obj\Debug\Day1_Task.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\Day1_Task\obj\Debug\Day1_Task.exe
+D:\Sakshi Chauhan\C#\Day1_Task\obj\Debug\Day1_Task.pdb

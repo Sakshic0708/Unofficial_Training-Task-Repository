@@ -63,7 +63,10 @@ $(document).ready(function () {
     $(document).on("click", ".history", function() {
         $("#HistoryModal").modal("show");
     });
-
+    var $links = $('a').click(function () {
+        $('a').removeClass('clicked');
+        $(this).addClass('clicked');
+     });
     // When a radio button is clicked
     $('input[name="AccountTypeName"]').click(function () {
         // Get the value of the selected radio button

@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\C#\MultiDimentionArray\bin\Debug\MultiDimentionArray.exe.config
+D:\Sakshi Chauhan\C#\MultiDimentionArray\bin\Debug\MultiDimentionArray.exe
+D:\Sakshi Chauhan\C#\MultiDimentionArray\bin\Debug\MultiDimentionArray.pdb
+D:\Sakshi Chauhan\C#\MultiDimentionArray\obj\Debug\MultiDimentionArray.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\MultiDimentionArray\obj\Debug\MultiDimentionArray.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\MultiDimentionArray\obj\Debug\MultiDimentionArray.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\MultiDimentionArray\obj\Debug\MultiDimentionArray.exe
+D:\Sakshi Chauhan\C#\MultiDimentionArray\obj\Debug\MultiDimentionArray.pdb

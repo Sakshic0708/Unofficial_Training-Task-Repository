@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\C#\Practice\bin\Debug\Practice.exe.config
+D:\Sakshi Chauhan\C#\Practice\bin\Debug\Practice.exe
+D:\Sakshi Chauhan\C#\Practice\bin\Debug\Practice.pdb
+D:\Sakshi Chauhan\C#\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\Practice\obj\Debug\Practice.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\Practice\obj\Debug\Practice.exe
+D:\Sakshi Chauhan\C#\Practice\obj\Debug\Practice.pdb
