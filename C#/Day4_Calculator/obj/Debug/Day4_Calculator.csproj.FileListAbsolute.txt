@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\C#\Day4_Calculator\bin\Debug\Day4_Calculator.exe.config
+D:\Sakshi Chauhan\C#\Day4_Calculator\bin\Debug\Day4_Calculator.exe
+D:\Sakshi Chauhan\C#\Day4_Calculator\bin\Debug\Day4_Calculator.pdb
+D:\Sakshi Chauhan\C#\Day4_Calculator\obj\Debug\Day4_Calculator.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\Day4_Calculator\obj\Debug\Day4_Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\Day4_Calculator\obj\Debug\Day4_Calculator.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\Day4_Calculator\obj\Debug\Day4_Calculator.exe
+D:\Sakshi Chauhan\C#\Day4_Calculator\obj\Debug\Day4_Calculator.pdb

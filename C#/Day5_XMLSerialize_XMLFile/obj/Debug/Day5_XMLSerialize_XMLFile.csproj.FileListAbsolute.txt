@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\bin\Debug\Day5_XMLSerialize_XMLFile.exe.config
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\bin\Debug\Day5_XMLSerialize_XMLFile.exe
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\bin\Debug\Day5_XMLSerialize_XMLFile.pdb
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\obj\Debug\Day5_XMLSerialize_XMLFile.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\obj\Debug\Day5_XMLSerialize_XMLFile.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\obj\Debug\Day5_XMLSerialize_XMLFile.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\obj\Debug\Day5_XMLSerialize_XMLFile.exe
+D:\Sakshi Chauhan\C#\Day5_XMLSerialize_XMLFile\obj\Debug\Day5_XMLSerialize_XMLFile.pdb
