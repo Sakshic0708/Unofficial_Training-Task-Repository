@@ -1,0 +1,11 @@
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\bin\Debug\Day8_EmployeeDirectory.exe.config
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\bin\Debug\Day8_EmployeeDirectory.exe
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\bin\Debug\Day8_EmployeeDirectory.pdb
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.exe
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.pdb
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\bin\Debug\Newtonsoft.Json.dll
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\bin\Debug\Newtonsoft.Json.xml
+D:\Sakshi Chauhan\C#\Day8_EmployeeDirectory\obj\Debug\Day8_EmployeeDirectory.csproj.CopyComplete
