@@ -1,0 +1,20 @@
+[
+  {
+    "FirstName": "Priyesh",
+    "LastName": "Poptani",
+    "Gender": "male",
+    "Email": "Poptani@gmail.com",
+    "PhoneNo": 9624949011,
+    "Designation": "8",
+    "Salary": 25000
+  },
+  {
+    "FirstName": "Sakshi",
+    "LastName": "Chauhan",
+    "Gender": "female",
+    "Email": "sakshi@gmail.com",
+    "PhoneNo": 8160390219,
+    "Designation": "2",
+    "Salary": 40000
+  }
+]
