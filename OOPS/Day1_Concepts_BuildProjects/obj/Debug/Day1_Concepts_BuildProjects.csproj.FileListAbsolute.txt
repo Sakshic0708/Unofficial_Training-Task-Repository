@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\bin\Debug\Day1_Concepts_BuildProjects.exe.config
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\bin\Debug\Day1_Concepts_BuildProjects.exe
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\bin\Debug\Day1_Concepts_BuildProjects.pdb
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\obj\Debug\Day1_Concepts_BuildProjects.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\obj\Debug\Day1_Concepts_BuildProjects.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\obj\Debug\Day1_Concepts_BuildProjects.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\obj\Debug\Day1_Concepts_BuildProjects.exe
+D:\Sakshi Chauhan\OOPS\Day1_Concepts_BuildProjects\obj\Debug\Day1_Concepts_BuildProjects.pdb

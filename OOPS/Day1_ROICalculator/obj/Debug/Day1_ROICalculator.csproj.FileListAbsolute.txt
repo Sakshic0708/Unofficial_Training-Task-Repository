@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\bin\Debug\Day1_ROICalculator.exe.config
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\bin\Debug\Day1_ROICalculator.exe
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\bin\Debug\Day1_ROICalculator.pdb
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\obj\Debug\Day1_ROICalculator.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\obj\Debug\Day1_ROICalculator.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\obj\Debug\Day1_ROICalculator.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\obj\Debug\Day1_ROICalculator.exe
+D:\Sakshi Chauhan\OOPS\Day1_ROICalculator\obj\Debug\Day1_ROICalculator.pdb
