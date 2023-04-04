@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\bin\Debug\Day2_ComputerBuilderSystem.exe.config
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\bin\Debug\Day2_ComputerBuilderSystem.exe
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\bin\Debug\Day2_ComputerBuilderSystem.pdb
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\obj\Debug\Day2_ComputerBuilderSystem.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\obj\Debug\Day2_ComputerBuilderSystem.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\obj\Debug\Day2_ComputerBuilderSystem.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\obj\Debug\Day2_ComputerBuilderSystem.exe
+D:\Sakshi Chauhan\OOPS\Day2_ComputerBuilderSystem\obj\Debug\Day2_ComputerBuilderSystem.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_OfficeManagementSystem", "Day2_OfficeManagementSystem.csproj", "{394A8EB1-77D1-405B-9708-C40E22F27F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_MatrimonialSystem(Shaadi.com)", "..\Day2_MatrimonialSystem(Shaadi.com)\Day2_MatrimonialSystem(Shaadi.com).csproj", "{68101166-DDE8-42E5-A75A-E250CD0C07D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394A8EB1-77D1-405B-9708-C40E22F27F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A8EB1-77D1-405B-9708-C40E22F27F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A8EB1-77D1-405B-9708-C40E22F27F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A8EB1-77D1-405B-9708-C40E22F27F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68101166-DDE8-42E5-A75A-E250CD0C07D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68101166-DDE8-42E5-A75A-E250CD0C07D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68101166-DDE8-42E5-A75A-E250CD0C07D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68101166-DDE8-42E5-A75A-E250CD0C07D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13998C88-7686-4925-B3FC-F938FB366FF6}
+	EndGlobalSection
+EndGlobal

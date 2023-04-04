@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\bin\Debug\Day2_OTTPlatform.exe.config
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\bin\Debug\Day2_OTTPlatform.exe
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\bin\Debug\Day2_OTTPlatform.pdb
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\obj\Debug\Day2_OTTPlatform.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\obj\Debug\Day2_OTTPlatform.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\obj\Debug\Day2_OTTPlatform.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\obj\Debug\Day2_OTTPlatform.exe
+D:\Sakshi Chauhan\OOPS\Day2_OTTPlatform\obj\Debug\Day2_OTTPlatform.pdb
