@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country->State->Cities</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="d-flex justify-content-center">
+            <h2>Country, State & City Dropdown Using Ajax & Jquery</h2>
+        </div>
+        <div class="Dropdown mt-5">
+            <label for="Country"><b>Country:</b></label>
+            <select name="country" id="country" class="form-select form-control mb-3">
+                <option value="">Select Country</option>
+            </select>
+            <label for="State"><b>State:</b></label>
+            <select name="state" id="state" class="form-select form-control mb-3">
+                <option value=""selected disabled>Select State</option>
+            </select>
+            <label for="City"><b>City:</b></label>
+            <select name="city" id="city" class="form-select form-control mb-3">
+                <option value=""selected disabled>Select City</option>
+            </select>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
