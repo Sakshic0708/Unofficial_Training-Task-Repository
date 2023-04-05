@@ -44,6 +44,7 @@ namespace Day2_MatrimonialSystem_Shaadi.com_
     {
         public int contactId { get; set; }
         public int contactName { get; set; }
+
         public void SaveContantProfile() { }
         public void DeleteContantProfile() { }
     }
@@ -51,6 +52,7 @@ namespace Day2_MatrimonialSystem_Shaadi.com_
     {
         public int photographId { get; set; }
         public int photographName { get; set; }
+
         public void AddPhotograph() { }
         public void SavePhotograph() { }
 
