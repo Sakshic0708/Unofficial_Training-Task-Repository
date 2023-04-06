@@ -16,18 +16,15 @@
         <div class="row p-2">
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <label for="startDate"><b>Start Date:</b></label>
-                <input type="text" name="startDate" class="form-control" value="" placeholder="mm/dd/yyyy --:--:----" />
+                <input type="datetime-local" name="startDate" class="form-control" value=""  id="startDate"/>
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <label for="endDate"><b>End Date:</b></label>
-                <input type="text" name="endDate" class="form-control" value="" placeholder="mm/dd/yyyy --:--:----" />
+                <input type="datetime-local" name="endDate" class="form-control" value=""  id="endDate" />
             </div>
         </div>
-        <button type="button" class="btn btn-primary" onclick="fetch()">Get Data</button>
-        <br>
-        <ul class="messages"></ul>
-
-
+        <button type="button" class="btn btn-primary get-data-button">Get Data</button>
+      
         <div class="d-flex justify-content-center mt-5">
             <h3>Event Details</h3>
         </div>
@@ -44,13 +41,14 @@
   
   <!-- Modal -->
   <div class="modal fade" id="addDataModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="ModalLabel">Add Api Data</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+        <form action="" id="ModalFormID">
         <div class="row p-2">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <label for="EventTitle"><b>Event Title:</b></label>
@@ -60,11 +58,11 @@
         <div class="row p-2">
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <label for="startDate"><b>Start Date:</b></label>
-                <input type="text" name="startDate" class="form-control" value="" placeholder="mm/dd/yyyy --:--:----" />
+                <input type="datetime-local" name="startDate" class="form-control" value=""  id="sDate" />
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <label for="endDate"><b>End Date:</b></label>
-                <input type="text" name="endDate" class="form-control" value="" placeholder="mm/dd/yyyy --:--:----" />
+                <input type="datetime-local" name="endDate" class="form-control" value=""  id="eDate"/>
             </div>
         </div>
         <div class="row p-2">
@@ -79,9 +77,11 @@
         </div>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Add Event</button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="CreateEvent">Add Event</button>
+            <button type="button" class="btn btn-primary" id="UpdateEvent">Update Event</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
+    </form>
       </div>
     </div>
   </div>
@@ -94,10 +94,16 @@
                 <th id="EventPriority">EventPriority</th>
                 <th>Action</th>
             </tr>
+            <tr>
+                <tbody class="table-body"></tbody>
+            </tr>
         </table>
     
     </div>
     <script src="./bootstrap/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>

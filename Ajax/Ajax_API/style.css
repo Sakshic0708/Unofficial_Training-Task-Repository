@@ -19,7 +19,6 @@
     padding-left: 25px;
   
   }
-  tr{
-    background-color: black;
-    color: #fff;
-  }
+label.error{
+  color: red;
+}
