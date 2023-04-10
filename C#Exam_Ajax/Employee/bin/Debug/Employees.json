@@ -1,0 +1,17 @@
+{
+  "EmployeeId": 1010,
+  "Name": "EFd",
+  "DateOfBirth": "2002-09-07T00:00:00",
+  "Gender": 0,
+  "Designation": "Manager",
+  "City": "ahmedabd",
+  "State": "gujrat",
+  "Postcode": "987654",
+  "Phone": "98765430",
+  "Email": "Abc@gmail.com",
+  "DateOfJoining": "2017-09-07T00:00:00",
+  "TotalExperience": 5,
+  "Remarks": "hi",
+  "Department": 5,
+  "MonthlySalary": 40000.0
+}

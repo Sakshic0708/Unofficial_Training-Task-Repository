@@ -1,0 +1,8 @@
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\bin\Debug\Exam_EmployeeMasterData.exe.config
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\bin\Debug\Exam_EmployeeMasterData.exe
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\bin\Debug\Exam_EmployeeMasterData.pdb
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\obj\Debug\Exam_EmployeeMasterData.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\obj\Debug\Exam_EmployeeMasterData.csproj.SuggestedBindingRedirects.cache
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\obj\Debug\Exam_EmployeeMasterData.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\obj\Debug\Exam_EmployeeMasterData.exe
+D:\Sakshi Chauhan\OOPS\Exam_EmployeeMasterData\obj\Debug\Exam_EmployeeMasterData.pdb
