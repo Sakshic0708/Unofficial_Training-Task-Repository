@@ -1,0 +1,32 @@
+.cell-border td,
+.cell-border th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.text-sales {
+    color: #ff0000;
+}
+
+.text-Marketing {
+    color: #005400;
+}
+
+.text-Developer {
+    color: #000;
+}
+
+.text-QA {
+    color: #0000ff;
+}
+
+.text-HR {
+    color: purple;
+}
+
+.text-SEO {
+    color: #fe00ef;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+    display: none;
+}
