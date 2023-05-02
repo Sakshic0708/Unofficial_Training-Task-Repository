@@ -1,0 +1,56 @@
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\appsettings.json
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.exe
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.deps.json
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.runtimeconfig.json
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.runtimeconfig.dev.json
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.dll
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.pdb
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.AssemblyReference.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.AssemblyInfoInputs.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.AssemblyInfo.cs
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.CoreCompileInputs.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\CustomerManagement.StaticWebAssets.Manifest.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\CustomerManagement.StaticWebAssets.Pack.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.CustomerManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.CustomerManagement.props
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.CustomerManagement.props
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.CustomerManagement.props
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.RazorTargetAssemblyInfo.cache
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.dll
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.pdb
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.genruntimeconfig.cache
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\DEmo\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.CopyComplete
+D:\DEmo\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.exe
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.runtimeconfig.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.runtimeconfig.dev.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\CustomerManagement.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\CustomerManagement.StaticWebAssets.Manifest.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\CustomerManagement.StaticWebAssets.Pack.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.CustomerManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.CustomerManagement.props
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.CustomerManagement.props
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.CustomerManagement.props
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.RazorTargetAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.csproj.CopyComplete
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement\CustomerManagement\obj\Debug\netcoreapp3.1\CustomerManagement.genruntimeconfig.cache

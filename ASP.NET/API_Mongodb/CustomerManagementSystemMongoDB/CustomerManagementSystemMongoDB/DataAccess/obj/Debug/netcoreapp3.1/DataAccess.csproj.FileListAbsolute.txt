@@ -1,0 +1,10 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

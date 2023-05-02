@@ -1,0 +1,141 @@
+﻿@model IEnumerable<DataAccessLayer.Models.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@section Styles{
+
+    <style>
+        .btn {
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+        .btn i {
+           margin-right: 3px;
+         }
+         
+
+    </style>
+}
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FilePath)
+            </th>
+            <th>
+                <button id="exportBtn" class="btn btn-success">Export Customers </button>
+
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var profileImage = Url.Content("~/ProfilePicture/" + item.FilePath);
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    <img src="@profileImage" style="width:70px;height:70px;border:2px solid black; padding:2px;margin:5px;" />
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
+                    <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                    <button type="button" class="btn btn-secondary CustomerDetails" data-id="@item.Id"><i class="fa fa-eye"></i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<!-- Modal -->
+<div class="modal fade" id="CustomerModalWindow" tabindex="-1" aria-labelledby="CustomerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="CustomerModalLabel">Customer Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="CustomerModalBody">
+                @* Partial View Called*@
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.CustomerDetails').click(function () {
+                var customerId = $(this).attr('data-id');
+                $.ajax({
+                    url: '@Url.Action("GetCustomerDetails", "Customer")',
+                    data: { id: customerId },
+                    type: 'GET',
+                    success: function (data) {
+                        $('#CustomerModalBody').html(data);
+                        $("#CustomerModalWindow").modal("show");
+                    },
+                    error: function () {
+                        alert('Error loading customer details');
+                    }
+                });
+            });
+        });
+        $(function () {
+            $('#exportBtn').click(function () {
+                $.ajax({
+                    url: '@Url.Action("ExportCustomersCSV", "Customer")',
+                    type: 'GET',
+                    success: function (data) {
+                        var link = document.createElement('a');
+                        link.href = "data:text/csv;base64," + btoa(data);
+                        link.download = "Export.csv";
+                        link.click();
+                        document.body.appendChild(link);
+                        document.body.removeChild(link);
+                    },
+                    error: function (error) {
+                        alert('Error exporting data to CSV');
+                    }
+                });
+            });
+        });
+    </script>
+}

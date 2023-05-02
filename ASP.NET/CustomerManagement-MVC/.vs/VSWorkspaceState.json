@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomerManagement_MVC",
+    "\\CustomerManagement_MVC\\Controllers",
+    "\\DataAccessLayer",
+    "\\DataAccessLayer\\Services"
+  ],
+  "SelectedNode": "\\DataAccessLayer\\Services\\CustomerRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,12 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\bin\Debug\net6.0\CustomerData.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\bin\Debug\net6.0\CustomerData.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\bin\Debug\net6.0\CustomerData.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\refint\CustomerData.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\CustomerData.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\customerManagementSystem\CustomerData\obj\Debug\net6.0\ref\CustomerData.dll

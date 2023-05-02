@@ -1,0 +1,47 @@
+﻿@model DataAccessLayer.Models.Customer
+
+@{
+    ViewData["Title"] = "Create";
+}
+@section Styles {
+   <style>
+       .email{
+           color: red !important;
+       }
+   </style>
+}
+
+<h1>Create</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+       @* //@Html.BeginForm("Create","Customer",FormMethod.Post)*@
+       <form asp-action="Create" enctype="multipart/form-data">
+        
+            @Html.HiddenFor(m=>m.Id)
+            @Html.EditorFor(m=>m.Name,null,"Name", new {htmlAttributes = new {@class = "form-control"}})
+            @Html.EditorFor(m=>m.Email,null,"Email",new { customclass = "email",Isrequired=true })
+            @Html.EditorFor(m=>m.Phone,null,"Phone", new {htmlAttributes = new {@class = "form-control"}})
+            @Html.EditorFor(m=>m.Address,null,"Address", new {htmlAttributes = new {@class = "form-control"}})
+            <div class="form-group">
+                @Html.LabelFor(model => model.FilePath, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input type="file" name="FileName" />
+                    @Html.ValidationMessageFor(model => model.FilePath, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <input type="submit" value="Create" class="btn btn-primary" />
+        
+       </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation\\Controllers",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation\\Views",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation\\Views\\Customer",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation\\Views\\Shared",
+    "\\CustomerManagement_HtmlHelpersRemoteValidation\\Views\\Shared\\EditorTemplates",
+    "\\DataAccessLayer",
+    "\\DataAccessLayer\\Models",
+    "\\DataAccessLayer\\Services"
+  ],
+  "SelectedNode": "\\CustomerManagement_HtmlHelpersRemoteValidation\\Controllers\\CustomerController.cs",
+  "PreviewInSolutionExplorer": false
+}

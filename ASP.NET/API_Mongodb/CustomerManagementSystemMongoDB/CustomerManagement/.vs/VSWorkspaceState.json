@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomerManagement",
+    "\\CustomerManagement\\Common",
+    "\\CustomerManagement\\Controllers",
+    "\\DataAccess",
+    "\\DataAccess\\Data"
+  ],
+  "SelectedNode": "\\CustomerManagement\\Controllers\\CustomerController.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,10 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.pdb

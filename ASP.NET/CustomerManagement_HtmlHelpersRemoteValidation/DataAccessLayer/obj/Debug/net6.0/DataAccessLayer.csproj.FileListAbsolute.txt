@@ -1,0 +1,15 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\bin\Debug\net6.0\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\bin\Debug\net6.0\CommonLibrary.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

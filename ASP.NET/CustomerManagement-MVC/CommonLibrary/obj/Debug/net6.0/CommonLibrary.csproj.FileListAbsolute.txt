@@ -1,0 +1,12 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\bin\Debug\net6.0\CommonLibrary.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\bin\Debug\net6.0\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\bin\Debug\net6.0\CommonLibrary.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\refint\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\CommonLibrary.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement-MVC\CommonLibrary\obj\Debug\net6.0\ref\CommonLibrary.dll

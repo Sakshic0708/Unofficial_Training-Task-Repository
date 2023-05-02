@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CommonLibrary",
+    "\\CustomerData",
+    "\\DataAccess",
+    "\\DataAccess\\Services",
+    "\\Day2_Autenticate_JWT",
+    "\\Day2_Autenticate_JWT\\Common",
+    "\\Day2_Autenticate_JWT\\Controllers",
+    "\\Day2_Autenticate_JWT\\Data"
+  ],
+  "SelectedNode": "\\Day2_Autenticate_JWT\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

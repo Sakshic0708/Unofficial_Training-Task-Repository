@@ -1,0 +1,187 @@
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.exe
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.dev.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Manifest.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Pack.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Day2_Autenticate_JWT.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.RazorTargetAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CopyComplete
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.genruntimeconfig.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\UserData.json
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\Customer.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\Customer.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\UserData.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.exe
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.deps.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.dev.json
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.AssemblyReference.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.GeneratedMSBuildEditorConfig.editorconfig
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfoInputs.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfo.cs
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CoreCompileInputs.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cs
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Manifest.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Pack.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Day2_Autenticate_JWT.Microsoft.AspNetCore.StaticWebAssets.props
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Day2_Autenticate_JWT.props
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Day2_Autenticate_JWT.props
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Day2_Autenticate_JWT.props
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.RazorTargetAssemblyInfo.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CopyComplete
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.genruntimeconfig.cache
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\AWSSDK.SecurityToken.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Snappier.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\ZstdSharp.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\sakshi\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\Customer.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Data\UserData.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.exe
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.deps.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.runtimeconfig.dev.json
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\AWSSDK.SecurityToken.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Snappier.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\ZstdSharp.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.AssemblyReference.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfoInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.AssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CoreCompileInputs.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cs
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.MvcApplicationPartsAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Manifest.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\Day2_Autenticate_JWT.StaticWebAssets.Pack.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Day2_Autenticate_JWT.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Day2_Autenticate_JWT.props
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.RazorTargetAssemblyInfo.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.csproj.CopyComplete
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\obj\Debug\netcoreapp3.1\Day2_Autenticate_JWT.genruntimeconfig.cache
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\Day2_Autenticate_JWT\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
