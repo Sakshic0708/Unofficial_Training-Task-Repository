@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CustomerManagement_HtmlHelpersRemoteValidation/1.0.0": {
         "dependencies": {
+          "CommonLibrary": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
         },
@@ -2502,6 +2503,7 @@
       },
       "CommonLibrary/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },

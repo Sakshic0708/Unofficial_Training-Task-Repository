@@ -7,6 +7,7 @@ using MongoDB.Bson;
 using SharpCompress.Common;
 using CommonLibrary;
 using Microsoft.AspNetCore.Authorization;
+using Newtonsoft.Json;
 
 namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 {
@@ -15,20 +16,19 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
     {
         CustomerRepository customerRepository = new CustomerRepository();
         ICustomerInterface _customerservices;
-
         public string FilePath { get; private set; }
-
-        public CustomerController(ICustomerInterface Customerservices)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public CustomerController(ICustomerInterface Customerservices, IHttpContextAccessor httpContextAccessor)
         {
             _customerservices = Customerservices;
+            this._httpContextAccessor = httpContextAccessor;
         }
-        // GET: CustomerController
-        public ActionResult Index()
-        {
-            var customers = _customerservices.GetCustomers();
-            return View(customers);
-        }
-
+        //// GET: CustomerController
+        //public ActionResult Index()
+        //{
+        //    var customers = _customerservices.SearchCustomer();
+        //    return View(customers);
+        //}
 
         // GET: CustomerController/Create
         public ActionResult Create()
@@ -47,10 +47,8 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             {
                 try
                 {
-
                     if (Request.Form.Files.Count > 0)
                     {
-
                         var file = Request.Form.Files[0];
                         var Extension = Path.GetExtension(Request.Form.Files[0].FileName);
                         var StoredFileName = "CustomerFile_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "_" + Extension;
@@ -148,8 +146,6 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             {
                 return View("Error", new { message = ex.Message });
             }
-
-
         }
 
         // GET: CustomerController/Delete/5
@@ -199,6 +195,46 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return Json($"Email {email} is already in use");
             }
         }
+        public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
+        {
+            var cookie = Request.Cookies["search"];
+            if(!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
+            {
+                search = cookie;            
+            }
+            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize: 3);
+            ViewBag.search = search;
+            ViewBag.sortby = sortby;
+            orderby = (orderby == "asc" ? "desc" : "asc");
+            ViewBag.orderby = orderby;
+            CookieOptions options = new CookieOptions();
+            options.Expires = DateTime.Now.AddMinutes(30);
+            if(search!= null && search.Length>0) 
+            CommonFunctions.CreateCookie(_httpContextAccessor, "search",search, options);
+            return View(objCustomers);
+        }
+        public ActionResult ReadCookies()
+        {
+         
+            string objCookie = CommonFunctions.ReadCookie(_httpContextAccessor, "CustomerEmail");
+            return Json(objCookie);
+        }
+
+        [HttpPost]
+        public ActionResult CookieDelete()
+        {
+            //var cookie = Request.Cookies["search"];
+            //CookieOptions options = new CookieOptions();
+            //options.Expires = DateTime.Now.AddSeconds(-2);
+            //_httpContextAccessor.HttpContext.Response.Cookies.Append("search", "", options);
+
+            Response.Cookies.Delete("search");
+
+            //return Json("Delete");
+            return RedirectToAction("Index");
+        }
+
+
 
 
     }

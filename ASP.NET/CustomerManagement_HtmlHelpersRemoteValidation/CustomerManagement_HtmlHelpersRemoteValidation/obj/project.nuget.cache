@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Ipe6wONYjxyUb6raQIWAZzsi/wlpcT9fmHQBQz9I2/AeWSIw76Im9ag7Zbnx9B29E9IREUS9ZilGYxWL7VHOg==",
+  "dgSpecHash": "JYG286NGdTjUjkS6qLCHs9sJxhyCGlJkyZAg4WHaY+SnTZlPf2i7bb0zq9pHjdo3j3OAlRvUGPzOjF4gbqcEww==",
   "success": true,
-  "projectFilePath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
+  "projectFilePath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User45\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\User45\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

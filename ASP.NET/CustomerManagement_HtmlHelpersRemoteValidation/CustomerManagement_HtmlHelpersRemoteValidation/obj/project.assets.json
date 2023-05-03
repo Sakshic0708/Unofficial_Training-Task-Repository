@@ -4119,6 +4119,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0"
         },
@@ -11214,6 +11215,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CommonLibrary >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13"
     ]
@@ -11224,11 +11226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
+      "projectUniqueName": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
       "projectName": "CustomerManagement_HtmlHelpersRemoteValidation",
-      "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
+      "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation.csproj",
       "packagesPath": "C:\\Users\\User45\\.nuget\\packages\\",
-      "outputPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\obj\\",
+      "outputPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User45\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11245,8 +11247,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj": {
+              "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj"
+            },
+            "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

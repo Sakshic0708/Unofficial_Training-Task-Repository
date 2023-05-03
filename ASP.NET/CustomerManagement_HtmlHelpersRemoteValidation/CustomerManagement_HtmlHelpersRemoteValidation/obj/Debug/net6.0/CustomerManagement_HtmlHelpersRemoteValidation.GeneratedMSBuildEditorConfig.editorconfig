@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomerManagement_HtmlHelpersRemoteValidation
 build_property.RootNamespace = CustomerManagement_HtmlHelpersRemoteValidation
-build_property.ProjectDir = D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\
+build_property.ProjectDir = D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation
+build_property.MSBuildProjectDirectory = D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Create.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Delete.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Edit.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Index.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/_CustomerDetail.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/_CustomerDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcX0N1c3RvbWVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Index.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Privacy.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/Email.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/String.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/String.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xTdHJpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/Error.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/_ViewImports.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/_ViewStart.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Sakshi Chauhan/CreateAPI_.Net/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/_Layout.cshtml]
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3xrexdilfe

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Models
 {
+
     public class Customer
     {
         [BsonId]
@@ -41,4 +42,5 @@ namespace DataAccessLayer.Models
 
 
     }
+  
 }

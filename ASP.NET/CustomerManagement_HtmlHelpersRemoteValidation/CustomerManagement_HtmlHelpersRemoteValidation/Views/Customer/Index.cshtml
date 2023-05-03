@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DataAccessLayer.Models.Customer>
+﻿@model DataAccessLayer.Models.CustomerListContainer
 
 @{
     ViewData["Title"] = "Index";
@@ -11,10 +11,24 @@
             font-size: 16px;
         }
 
-        .btn i {
-           margin-right: 3px;
+         .btn i {
+             margin-right: 3px;
          }
-         
+
+        #exportBtn{
+            background-color: lightseagreen;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #Reset{
+            background-color: palevioletred;
+        }
+        p{
+            margin-bottom:0px;
+        }
 
     </style>
 }
@@ -23,33 +37,53 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+@*@using (Html.BeginForm("Index", "Customer", FormMethod.Get))*@
+@*{*@
+<form method="post" asp-controller="Customer">
+    <div class="container">
+        <div class="row justify-content-md-end">
+            <div class="col col-lg-2">
+                <input type="text" name="search" id="search" class="form-control" value="@ViewBag.search"/>
+            </div>
+            <div class="col-md-auto">
+                <button type="submit" name="Submit" formaction="@Url.Action("Index")" class="btn btn-primary">Search</button>
+            </div>
+            <div class="col col-lg-2">
+                <button type="submit" name="Reset" id="Reset" formaction="@Url.Action("CookieDelete")" class="btn">Reset</button>
+            </div>
+        </div>
+    </div>
+    </form>
+@*}*@
+
 <table class="table">
     <thead>
         <tr>
+
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Name",orderby=ViewBag.orderby})">Name</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Email",orderby=ViewBag.orderby})">Email</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Phone)
+                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Phone",orderby=ViewBag.orderby})">Phone</a>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Address)
+                <p>Address</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FilePath)
+                <p>FilePath</p>
             </th>
             <th>
                 <button id="exportBtn" class="btn btn-success">Export Customers </button>
-
             </th>
+
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.CustomerPageList.Records)
         {
             var profileImage = Url.Content("~/ProfilePicture/" + item.FilePath);
             <tr>
@@ -77,6 +111,19 @@
         }
     </tbody>
 </table>
+
+
+<ul class="pagination">
+
+    @for (int i = 1; i <= Model.CustomerPageList.TotalPage; i++)
+    {
+        <li class="@(i == Model.CustomerPageList.Page ? "page-item active" : "page-item")">
+            <a class="page-link" href="@Url.Action("Index", new { page = i ,search=ViewBag.search,sortby=ViewBag.sortby,orderby=ViewBag.orderby})">@i</a>
+        </li>
+    }
+
+</ul>
+
 <!-- Modal -->
 <div class="modal fade" id="CustomerModalWindow" tabindex="-1" aria-labelledby="CustomerModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -137,5 +184,20 @@
                 });
             });
         });
+        //$(function () {
+        //    $("#Reset").click(function () {
+        //        $.ajax({
+        //            url: '@Url.Action("CookieDelete", "Customer")',
+        //            contentType: "application/json;charset=utf-8",
+        //            success: function (data) {
+        //                $("#search").val("");
+                      
+        //            },
+        //            error: function (jqXHR, textStatus, errorThrown) {
+        //                console.log("Error: " + errorThrown);
+        //            }
+        //        });
+        //    });
+        //});
     </script>
 }
