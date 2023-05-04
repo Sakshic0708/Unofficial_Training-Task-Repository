@@ -10,3 +10,15 @@ D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\
 D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\refint\CommonLibrary.dll
 D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.pdb
 D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\ref\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\bin\Debug\net6.0\CommonLibrary.deps.json
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\bin\Debug\net6.0\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\bin\Debug\net6.0\CommonLibrary.pdb
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.AssemblyReference.cache
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfoInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfo.cs
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\refint\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\CommonLibrary.pdb
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CommonLibrary\obj\Debug\net6.0\ref\CommonLibrary.dll

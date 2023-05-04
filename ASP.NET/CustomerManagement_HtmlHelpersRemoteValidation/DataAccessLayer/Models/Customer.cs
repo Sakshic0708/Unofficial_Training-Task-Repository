@@ -22,10 +22,8 @@ namespace DataAccessLayer.Models
         [StringLength(10, MinimumLength = 1, ErrorMessage = "Name length much be between 1 and 10 characters in length.")]
         public string? Name { get; set; }
 
-        //[RegularExpression(@"^([\w\.\-] +)@([\w\-] +)((\.(\w){2, 3})+)$")]
+        [RegularExpression(@"^[^\s@]+@[^\s@]+\.(com|org|edu|info|in)$")]
         [Remote("CheckExistingEmail", "Customer", ErrorMessage = "Email already exists!")]
-        [Required]
-        [EmailAddress]
         [UIHint("String")]
         public string? Email { get; set; }
 

@@ -1,12 +1,17 @@
 using DataAccessLayer.Interface;
 using DataAccessLayer.Services;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICustomerInterface, CustomerRepository>();
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+//builder.Services.AddSingleton<IWebHostEnvironment>(new WebHostEnvironment());
 
 var app = builder.Build();
 

@@ -1,37 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\92abddcd-952e-4e91-aa14-849387bcc687Export.csv))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>92abddcd-952e-4e91-aa14-849387bcc687Export.csv</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\92abddcd-952e-4e91-aa14-849387bcc687Export.csv))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\acd145cd-fa47-4025-966d-8d28e1848993Export.csv))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>acd145cd-fa47-4025-966d-8d28e1848993Export.csv</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\acd145cd-fa47-4025-966d-8d28e1848993Export.csv))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
@@ -1696,12 +1664,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-02-49_.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-37-39_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-02-49_.png</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-37-39_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1710,14 +1678,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-02-49_.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-37-39_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-06-18_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-38-09_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-06-18_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-38-09_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1726,14 +1694,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-06-18_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-38-09_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-07-27_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-38-29_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-07-27_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-38-29_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1742,14 +1710,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-07-27_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-38-29_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-07-46_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-02_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-07-46_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-42-02_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1758,14 +1726,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-07-46_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-02_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-03_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-18_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-08-03_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-42-18_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1774,14 +1742,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-03_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-18_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-29_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-36_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-08-29_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-12-42-36_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1790,14 +1758,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-29_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-12-42-36_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-49_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-14-34-10_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-08-49_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-14-34-10_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1806,14 +1774,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-08-49_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-14-34-10_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-09-02_.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-14-50-38_.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-02-11-09-02_.jpg</RelativePath>
+      <RelativePath>ProfilePicture/CustomerFile_2023-05-04-14-50-38_.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1822,87 +1790,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-02-11-09-02_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-20-04_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-03-16-20-04_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-20-04_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-20-52_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-03-16-20-52_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-20-52_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-21-43_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-03-16-21-43_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-21-43_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-22-28_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-03-16-22-28_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-22-28_.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-26-46_.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>CustomerManagement_HtmlHelpersRemoteValidation</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/CustomerManagement_HtmlHelpersRemoteValidation</BasePath>
-      <RelativePath>ProfilePicture/CustomerFile_2023-05-03-16-26-46_.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-03-16-26-46_.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProfilePicture\CustomerFile_2023-05-04-14-50-38_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

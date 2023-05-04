@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj": {
+    "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj",
+        "projectUniqueName": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj",
         "projectName": "CommonLibrary",
-        "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj",
+        "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj",
         "packagesPath": "C:\\Users\\User45\\.nuget\\packages\\",
-        "outputPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\obj\\",
+        "outputPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User45\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -69,14 +73,14 @@
         }
       }
     },
-    "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\User45\\.nuget\\packages\\",
-        "outputPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User45\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj": {
-                "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj"
+              "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj": {
+                "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CommonLibrary\\CommonLibrary.csproj"
               }
             }
           }

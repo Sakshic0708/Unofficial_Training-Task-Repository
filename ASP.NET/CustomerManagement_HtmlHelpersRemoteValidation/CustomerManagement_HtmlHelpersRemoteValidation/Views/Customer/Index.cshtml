@@ -30,8 +30,13 @@
             margin-bottom:0px;
         }
 
+        .Background {
+            background-color: linen;
+        }
+
     </style>
 }
+<div class="container Background">
 <h1>Index</h1>
 
 <p>
@@ -59,7 +64,9 @@
 <table class="table">
     <thead>
         <tr>
-
+            <th>
+                <p>FilePath</p>
+            </th>
             <th>
                 <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Name",orderby=ViewBag.orderby})">Name</a>
             </th>
@@ -72,9 +79,7 @@
             <th>
                 <p>Address</p>
             </th>
-            <th>
-                <p>FilePath</p>
-            </th>
+          
             <th>
                 <button id="exportBtn" class="btn btn-success">Export Customers </button>
             </th>
@@ -88,6 +93,9 @@
             var profileImage = Url.Content("~/ProfilePicture/" + item.FilePath);
             <tr>
                 <td>
+                    <img src="@profileImage" style="width:70px;height:70px;border:2px solid black; padding:2px;margin:5px;" />
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
@@ -99,34 +107,31 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Address)
                 </td>
-                <td>
-                    <img src="@profileImage" style="width:70px;height:70px;border:2px solid black; padding:2px;margin:5px;" />
-                </td>
+
                 <td>
                     <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
                     <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
                     <button type="button" class="btn btn-secondary CustomerDetails" data-id="@item.Id"><i class="fa fa-eye"></i></button>
                 </td>
             </tr>
+
         }
     </tbody>
 </table>
 
 
 <ul class="pagination">
-
     @for (int i = 1; i <= Model.CustomerPageList.TotalPage; i++)
     {
         <li class="@(i == Model.CustomerPageList.Page ? "page-item active" : "page-item")">
-            <a class="page-link" href="@Url.Action("Index", new { page = i ,search=ViewBag.search,sortby=ViewBag.sortby,orderby=ViewBag.orderby})">@i</a>
+            <a class="page-link" href="@Url.Action("Index", new { page = i, search = ViewBag.search, sortby = ViewBag.sortby, orderby = ViewBag.orderby })">@i</a>
         </li>
     }
-
 </ul>
-
+</div>
 <!-- Modal -->
 <div class="modal fade" id="CustomerModalWindow" tabindex="-1" aria-labelledby="CustomerModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="CustomerModalLabel">Customer Information</h5>

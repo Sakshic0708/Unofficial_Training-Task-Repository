@@ -18,6 +18,6 @@ namespace DataAccessLayer.Interface
         long DeleteCustomer(string id);
         Customer GetCustomerById(ObjectId id);
         List<Customer> GetEmailCustomer(string email);
-        CustomerListContainer SearchCustomer(string searchText, string sortby = "Name", string orderby = "asc", int page = 1, int pageSize = 15);
+        CustomerListContainer SearchCustomer(string search, string sortby = "Name", string orderby = "asc", int page = 1, int pageSize = 15);
     }
 }

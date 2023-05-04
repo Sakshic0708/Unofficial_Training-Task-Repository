@@ -1,13 +1,10 @@
-﻿using DataAccessLayer.Interface;
-using DataAccessLayer.Services;
+﻿using CommonLibrary;
+using DataAccessLayer.Interface;
 using DataAccessLayer.Models;
-using Microsoft.AspNetCore.Http;
+using DataAccessLayer.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
-using SharpCompress.Common;
-using CommonLibrary;
-using Microsoft.AspNetCore.Authorization;
-using Newtonsoft.Json;
 
 namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 {
@@ -55,7 +52,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                         var FilePath = AppConfiguration.FilePath + StoredFileName;
                         customer.FilePath = StoredFileName;
                         using (var stream = new FileStream(FilePath, FileMode.Create))
-                        {   
+                        {
                             file.CopyTo(stream);
                         }
                         _customerservices.AddCustomer(customer);
@@ -100,8 +97,8 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         [AllowAnonymous]
         public ActionResult ExportCustomersCSV()
         {
-            var objCustomers  = _customerservices.GetCustomers();
-            var FileName =  Guid.NewGuid() + "Export.csv";
+            var objCustomers = _customerservices.GetCustomers();
+            var FileName = Guid.NewGuid() + "Export.csv";
             var FilePath = "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\" + FileName;
             CommonFunctions.WriteCSV<Customer>(objCustomers, FilePath);
 
@@ -117,11 +114,14 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 {
                     return BadRequest();
                 }
+
                 var customer = _customerservices.GetCustomerById(objectId);
+
                 if (customer == null)
                 {
                     return NotFound();
                 }
+
                 return View(customer);
             }
             catch (Exception ex)
@@ -130,7 +130,6 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             }
         }
 
-        // POST: CustomerController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(string id, Customer customer)
@@ -138,15 +137,48 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             try
             {
                 var objectId = new ObjectId(id);
-                customer.Id = objectId;
-                _customerservices.UpdateCustomer(customer);
-                return RedirectToAction("Index");
+
+                if (ModelState.IsValid)
+                {
+                    if (Request.Form.Files.Count > 0)
+                    {
+                        //Delete the existing file if it exists
+                        if (!string.IsNullOrEmpty(customer.FilePath))
+                        {
+                            var existingFilePath = AppConfiguration.FilePath + customer.FilePath;
+                            if (System.IO.File.Exists(existingFilePath))
+                            {
+                                System.IO.File.Delete(existingFilePath);
+                            }
+                        }
+                        var file = Request.Form.Files[0];
+                        var Extension = Path.GetExtension(Request.Form.Files[0].FileName);
+                        var StoredFileName = "CustomerFile_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "_" + Extension;
+                        var FilePath = AppConfiguration.FilePath + StoredFileName;
+
+                        using (var stream = new FileStream(FilePath, FileMode.Create))
+                        {
+                            file.CopyTo(stream);
+                        }
+                        customer.FilePath = StoredFileName;
+                    }
+
+                    customer.Id = objectId;
+                    _customerservices.UpdateCustomer(customer);
+
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(customer);
+                }
             }
             catch (Exception ex)
             {
                 return View("Error", new { message = ex.Message });
             }
         }
+
 
         // GET: CustomerController/Delete/5
         public ActionResult Delete(string id)
@@ -197,25 +229,30 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         }
         public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
         {
+   
             var cookie = Request.Cookies["search"];
-            if(!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
+            if (!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
             {
-                search = cookie;            
+                search = cookie;
             }
-            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize: 3);
+            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize:3);
             ViewBag.search = search;
             ViewBag.sortby = sortby;
             orderby = (orderby == "asc" ? "desc" : "asc");
             ViewBag.orderby = orderby;
             CookieOptions options = new CookieOptions();
             options.Expires = DateTime.Now.AddMinutes(30);
-            if(search!= null && search.Length>0) 
-            CommonFunctions.CreateCookie(_httpContextAccessor, "search",search, options);
+            if (search != null && search.Length > 0)
+            {
+                CommonFunctions.CreateCookie(_httpContextAccessor, "search", search, options);
+            }
+
             return View(objCustomers);
         }
+
         public ActionResult ReadCookies()
         {
-         
+
             string objCookie = CommonFunctions.ReadCookie(_httpContextAccessor, "CustomerEmail");
             return Json(objCookie);
         }

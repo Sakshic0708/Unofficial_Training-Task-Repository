@@ -10,26 +10,29 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-     @*   @Html.BeginForm("Edit","Customer",FormMethod.Post){*@
-        <form asp-action="Edit">
-        @Html.EditorFor(m=>m.Name,null,"Name", new {htmlAttributes = new {@class = "form-control"}})
-        @Html.EditorFor(m=>m.Email,null,"Email", new {htmlAttributes = new {@class = "form-control"}})
-        @Html.EditorFor(m=>m.Phone,null,"Phone", new {htmlAttributes = new {@class = "form-control"}})
-        @Html.EditorFor(m=>m.Address,null,"Address", new {htmlAttributes = new {@class = "form-control"}})
-        <div class="form-group">
-            <input type="submit" value="Save" class="btn btn-primary" />
-        </div>
+        <form asp-action="Edit" enctype="multipart/form-data">
+            @Html.HiddenFor(m => m.Id)
+            @Html.EditorFor(m => m.Name, null, "Name", new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(m => m.Email, null, "Email", new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(m => m.Phone, null, "Phone", new { htmlAttributes = new { @class = "form-control" } })
+            @Html.EditorFor(m => m.Address, null, "Address", new { htmlAttributes = new { @class = "form-control" } })
+            @Html.HiddenFor(m => m.FilePath)
+            <div class="form-group">
+                <label>Profile Picture</label>
+                <input type="file" name="FileName" class="form-control-file" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
         </form>
-        @*<form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
-           
-  
     </div>
 </div>
 
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

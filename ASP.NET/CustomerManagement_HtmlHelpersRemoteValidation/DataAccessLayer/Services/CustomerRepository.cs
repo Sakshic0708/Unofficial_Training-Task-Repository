@@ -3,6 +3,8 @@ using DataAccessLayer.Interface;
 using DataAccessLayer.Models;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using System.Reflection;
+using System;
 
 
 namespace DataAccessLayer.Services
@@ -36,9 +38,13 @@ namespace DataAccessLayer.Services
                 .Set(c => c.Name, customer.Name)
                 .Set(c => c.Email, customer.Email)
                 .Set(c => c.Phone, customer.Phone)
-                .Set(c => c.Address, customer.Address);
+                .Set(c => c.Address, customer.Address)
+                .Set(c => c.FilePath, customer.FilePath);
+
             _customers.UpdateOne(filter, update);
         }
+        //Note that I removed the line that called the File method, and also added a missing closing brace for the Edit action method.
+
 
         public Customer GetCustomerById(ObjectId id)
         {
@@ -56,6 +62,7 @@ namespace DataAccessLayer.Services
             return users;
         }
 
+      
         public CustomerListContainer SearchCustomer(string searchText, string sortby = "Name", string orderby = "asc", int page = 1, int pageSize = 15)
         {
             var filter = Builders<Customer>.Filter.Empty;
@@ -67,8 +74,12 @@ namespace DataAccessLayer.Services
                           Builders<Customer>.Filter.Regex(field: "Phone", regex: new BsonRegularExpression(pattern: searchText, options: "i"));
             }
 
+            var objCustomers = _customers.Find(filter);
+            var totalRecordCount = objCustomers.Count();
             var sort = orderby == "asc" ? Builders<Customer>.Sort.Ascending(sortby) : Builders<Customer>.Sort.Descending(sortby);
-            var objCustomers = _customers.Find(filter).Sort(sort);//.Skip((page - 1) * pageSize).Limit(pageSize).ToList();
+
+            var totalPages = System.Convert.ToInt32(System.Math.Ceiling(totalRecordCount / System.Convert.ToDouble(pageSize)));
+            var records = objCustomers.Sort(sort).Skip((page - 1) * pageSize).Limit(pageSize).ToList();
 
             var ObjResponse = new CustomerListContainer()
             {
@@ -76,9 +87,9 @@ namespace DataAccessLayer.Services
                 {
                     Page = page,
                     PageSize = pageSize,
-                    TotalPage = System.Convert.ToInt32(System.Math.Ceiling(objCustomers.Count() / System.Convert.ToDouble(pageSize))),
-                    TotalRecord = objCustomers.Count(),
-                    Records = objCustomers.Skip((page - 1) * pageSize).Limit(pageSize).ToList()
+                    TotalPage = totalPages,
+                    TotalRecord = totalRecordCount,
+                    Records = records
                 }
             };
 
