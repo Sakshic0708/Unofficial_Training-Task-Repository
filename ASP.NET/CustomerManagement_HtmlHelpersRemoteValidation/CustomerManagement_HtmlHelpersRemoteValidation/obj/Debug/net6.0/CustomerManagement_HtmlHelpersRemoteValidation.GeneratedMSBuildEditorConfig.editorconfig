@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

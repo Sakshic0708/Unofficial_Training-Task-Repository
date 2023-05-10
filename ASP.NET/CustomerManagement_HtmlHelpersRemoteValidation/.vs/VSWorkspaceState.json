@@ -11,6 +11,6 @@
     "\\DataAccessLayer\\Models",
     "\\DataAccessLayer\\Services"
   ],
-  "SelectedNode": "\\CustomerManagement_HtmlHelpersRemoteValidation\\Controllers\\CustomerController.cs",
+  "SelectedNode": "\\DataAccessLayer\\Services\\CustomerRepository.cs",
   "PreviewInSolutionExplorer": false
 }

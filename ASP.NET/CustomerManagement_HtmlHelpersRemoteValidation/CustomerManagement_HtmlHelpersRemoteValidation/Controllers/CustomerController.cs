@@ -20,13 +20,14 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             _customerservices = Customerservices;
             this._httpContextAccessor = httpContextAccessor;
         }
+
         //// GET: CustomerController
         //public ActionResult Index()
         //{
-        //    var customers = _customerservices.SearchCustomer();
+        //    var customers = _customerservices.GetCustomers();
         //    return View(customers);
         //}
-
+        [Authorize(Roles ="Editor,Admin")]
         // GET: CustomerController/Create
         public ActionResult Create()
         {
@@ -35,7 +36,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             model.Id = new ObjectId();
             return View(model);
         }
-
+        [Authorize(Roles = "Editor,Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Customer customer)
@@ -68,7 +69,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             return View(customer);
 
         }
-
+        [Authorize(Roles = "Editor,Admin")]
         [AllowAnonymous]
         [HttpGet]
         public IActionResult GetCustomerDetails(string id)
@@ -105,6 +106,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             return File(FileName, "text/csv");
 
         }
+        [Authorize(Roles = "Editor,Admin")]
         // GET: CustomerController/Edit/5
         public ActionResult Edit(string id)
         {
@@ -129,7 +131,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return View("Error", new { message = ex.Message });
             }
         }
-
+        [Authorize(Roles = "Editor,Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(string id, Customer customer)
@@ -179,7 +181,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             }
         }
 
-
+        [Authorize(Roles = "Editor,Admin")]
         // GET: CustomerController/Delete/5
         public ActionResult Delete(string id)
         {
@@ -197,7 +199,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return View("Error", new { message = ex.Message });
             }
         }
-
+        [Authorize(Roles = "Editor,Admin")]
         // POST: CustomerController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -227,6 +229,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return Json($"Email {email} is already in use");
             }
         }
+        [Authorize(Roles = "Employee,Editor,Admin")]
         public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
         {
    

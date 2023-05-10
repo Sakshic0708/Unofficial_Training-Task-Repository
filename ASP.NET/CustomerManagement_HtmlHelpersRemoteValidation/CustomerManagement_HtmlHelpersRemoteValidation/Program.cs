@@ -1,7 +1,12 @@
+using AspNetCore.Identity.MongoDbCore.Infrastructure;
+using CommonLibrary;
 using DataAccessLayer.Interface;
+using DataAccessLayer.Models;
 using DataAccessLayer.Services;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MongoDB.Driver.Core.Configuration;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,8 +15,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICustomerInterface, CustomerRepository>();
 
+var mongoDbSetting = AppConfiguration.ConnectionString;
+var Name = AppConfiguration.DatabaseName;
+
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-//builder.Services.AddSingleton<IWebHostEnvironment>(new WebHostEnvironment());
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
+       .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
+       (mongoDbSetting,Name);
 
 var app = builder.Build();
 
@@ -27,7 +37,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
