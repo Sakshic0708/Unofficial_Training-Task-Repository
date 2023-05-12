@@ -5,6 +5,8 @@ using DataAccessLayer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
+using MongoDB.Driver;
+using SharpCompress.Common;
 
 namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 {
@@ -95,42 +97,49 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return BadRequest();
             }
         }
-        [AllowAnonymous]
         public ActionResult ExportCustomersCSV()
-        {
-            var objCustomers = _customerservices.GetCustomers();
-            var FileName = Guid.NewGuid() + "Export.csv";
-            var FilePath = "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\" + FileName;
-            CommonFunctions.WriteCSV<Customer>(objCustomers, FilePath);
-
-            return File(FileName, "text/csv");
-
-        }
-        [Authorize(Roles = "Editor,Admin")]
-        // GET: CustomerController/Edit/5
-        public ActionResult Edit(string id)
         {
             try
             {
-                if (!ObjectId.TryParse(id, out ObjectId objectId))
-                {
-                    return BadRequest();
-                }
-
-                var customer = _customerservices.GetCustomerById(objectId);
-
-                if (customer == null)
-                {
-                    return NotFound();
-                }
-
-                return View(customer);
+                var objCustomers = _customerservices.GetCustomers();
+                var FileName = "Export.csv";
+                var FilePath = "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\" + FileName;
+                CommonFunctions.WriteCSV(objCustomers, FilePath);
+                byte[] fileBytes = System.IO.File.ReadAllBytes(FilePath);
+                return File(fileBytes, "text/csv", FileName);
             }
-            catch (Exception ex)
+            catch
             {
-                return View("Error", new { message = ex.Message });
+                return RedirectToAction("Index");
             }
         }
+
+
+        [Authorize(Roles = "Editor,Admin")]
+            // GET: CustomerController/Edit/5
+            public ActionResult Edit(string id)
+            {
+                try
+                {
+                    if (!ObjectId.TryParse(id, out ObjectId objectId))
+                    {
+                        return BadRequest();
+                    }
+
+                    var customer = _customerservices.GetCustomerById(objectId);
+
+                    if (customer == null)
+                    {
+                        return NotFound();
+                    }
+
+                    return View(customer);
+                }
+                catch (Exception ex)
+                {
+                    return View("Error", new { message = ex.Message });
+                }
+            }
         [Authorize(Roles = "Editor,Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -232,19 +241,22 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         [Authorize(Roles = "Employee,Editor,Admin")]
         public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
         {
-   
             var cookie = Request.Cookies["search"];
             if (!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
             {
                 search = cookie;
             }
-            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize:3);
+
+            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize: 3);
+
             ViewBag.search = search;
             ViewBag.sortby = sortby;
             orderby = (orderby == "asc" ? "desc" : "asc");
             ViewBag.orderby = orderby;
+
             CookieOptions options = new CookieOptions();
             options.Expires = DateTime.Now.AddMinutes(30);
+
             if (search != null && search.Length > 0)
             {
                 CommonFunctions.CreateCookie(_httpContextAccessor, "search", search, options);
@@ -275,7 +287,10 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         }
 
 
-
+        //public ActionResult AccessDenied()
+        //{
+        //    return View();
+        //}
 
     }
 }

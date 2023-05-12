@@ -31,3 +31,16 @@ D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\bin\Debug\netcoreapp3.1\CommonLibrary.dll
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\bin\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

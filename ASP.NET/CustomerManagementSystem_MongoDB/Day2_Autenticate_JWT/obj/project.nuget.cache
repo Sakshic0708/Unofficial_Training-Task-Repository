@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "97X5EBF+c2mZ58MDAyRfbqFTHp1TWM68uRjJxG4Vao6FYuRK7U8cwTnwz7GVdgwBqrbP7sP+GALIHGHI/MWHyA==",
+  "dgSpecHash": "brxhpRGRP6IyQU/sHhJge9Mrx0vvDP5SNl8Ib2ouNG7hpK+QQ3VEhPqOR81PnRSh241wDGFwdqtRNNsO2ylaTg==",
   "success": true,
-  "projectFilePath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagementSystem_MongoDB\\Day2_Autenticate_JWT\\Day2_Autenticate_JWT.csproj",
+  "projectFilePath": "D:\\API Tasks\\ASP.NET\\CustomerManagementSystem_MongoDB\\Day2_Autenticate_JWT\\Day2_Autenticate_JWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User45\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\User45\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

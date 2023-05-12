@@ -281,6 +281,7 @@ D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\
 D:\Sakshi Chauhan\CreateAPI_.Net\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\libman.json
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\appsettings.Development.json
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\appsettings.json
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\bundleconfig.json
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\libman.json
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\CustomerManagement_HtmlHelpersRemoteValidation.staticwebassets.runtime.json
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\CustomerManagement_HtmlHelpersRemoteValidation.exe
@@ -295,7 +296,15 @@ D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerMana
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Humanizer.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\MessagePack.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.Mvc.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.Razor.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.Helpers.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\System.Web.WebPages.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Build.dll
@@ -321,10 +330,13 @@ D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerMana
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
@@ -335,6 +347,7 @@ D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerMana
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\MongoDB.Bson.dll
 D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation\bin\Debug\net6.0\MongoDB.Driver.dll

@@ -1,9 +1,12 @@
-﻿using DataAccessLayer.Models;
+﻿using CustomerManagement_HtmlHelpersRemoteValidation.Common;
+using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
+using System.Data;
 
 namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 {
@@ -22,19 +25,20 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
        public ActionResult Register()
         {
             var model = new RegisterViewModel();
-            ViewBag.Roles = _roleManager.Roles.Select(p=> new SelectListItem { Text=p.Name,Value=p.Name}).ToList();
+            //ViewBag.Roles = _roleManager.Roles.Select(p=> new SelectListItem { Text=p.Name,Value=p.Name}).ToList();
             return View(model);
         }
-        [HttpPost]
+         [HttpPost]
         public ActionResult Register(RegisterViewModel model)
         {
             if(ModelState.IsValid)
             {
                 var applicationuser = new ApplicationUser() {FirstName=model.FirstName, LastName=model.LastName,Address=model.Address,City=model.City,Email=model.Email,PhoneNumber=model.PhoneNumber,UserName=model.Email};
                 var objUser = _userManager.CreateAsync(applicationuser,model.Password).Result;
+              
                 if (objUser.Succeeded)
                 {
-                    _userManager.AddToRoleAsync(applicationuser, model.RoleId);
+                    var result = _userManager.AddToRoleAsync(applicationuser, "Employee").Result;
                     ViewBag.Message = "User Created Cuccessfully";
                 }
                  
@@ -48,9 +52,11 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             {
                 ViewBag.error = string.Join(";",ModelState.Values.SelectMany(x=> x.Errors).Select(x=>x.ErrorMessage));
             }
-            ViewBag.Roles = _roleManager.Roles.Select(p => new SelectListItem { Text = p.Name, Value = p.Name }).ToList();
+            //Selected item in dropdown list
+            //ViewBag.Roles = _roleManager.Roles.Select(p => new SelectListItem { Text = p.Name, Value = p.Name }).ToList();
             return View(model);
         }
+
         [AllowAnonymous]
         public ActionResult Login()  => View();
         [HttpPost]
@@ -88,15 +94,17 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             var objRoles = _roleManager.Roles.ToList();
             return View(objRoles);
         }
+
         [Authorize(Roles = "Admin")]
         public ActionResult CreateRole() => View();
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult CreateRole(RoleViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var objRole = _roleManager.CreateAsync(new ApplicationRole { Name=model.Name,Description=model.Description }).Result;
+                var objRole = _roleManager.CreateAsync(new ApplicationRole { Name=model.Name, Description=model.Description}).Result;
                 if (objRole.Succeeded)
                     ViewBag.Message = "Role Created Successfully";
                 else
@@ -111,5 +119,49 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             }
             return View(model);
         }
+        [Authorize(Roles ="Admin")]
+        public IActionResult Users()
+        {
+            var users = _userManager.Users.ToList();
+            ViewBag.Roles = _roleManager.Roles.Select(p => new SelectListItem { Text = p.Name, Value = p.RoleId }).ToList();
+            return View(users);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> ChangeRole(string userId, string roleName)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            ViewBag.RoleName = roleName;
+            var jsonResponse = new CommonJsonResponse();
+
+            if (user == null)
+            {
+                jsonResponse.Message = "User not found";
+                jsonResponse.Status = 404;
+                return Json(jsonResponse);
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            await _userManager.RemoveFromRolesAsync(user, roles);
+            await _userManager.AddToRoleAsync(user, roleName);
+
+            jsonResponse.Message = "Role changed successfully";
+            jsonResponse.Status = 200;
+
+            // Convert the jsonResponse object to a JSON string
+            var json = JsonConvert.SerializeObject(jsonResponse);
+
+            // Return the JSON response
+            return Content(json, "application/json");
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
+
+  

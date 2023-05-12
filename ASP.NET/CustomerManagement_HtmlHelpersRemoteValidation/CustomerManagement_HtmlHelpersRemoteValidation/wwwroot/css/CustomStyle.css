@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.email {
+    color: red !important;
+}
+.btn {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.btn i {
+    margin-right: 3px;
+}
+.rounded-circle{
+    max-height:70px;
+    max-width: 70px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.pagination {
+    justify-content: right;
+    padding-right: 40px;
+}

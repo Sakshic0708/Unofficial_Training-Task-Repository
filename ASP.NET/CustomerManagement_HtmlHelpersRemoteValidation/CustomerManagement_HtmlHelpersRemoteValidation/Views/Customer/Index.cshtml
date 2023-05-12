@@ -3,132 +3,115 @@
 @{
     ViewData["Title"] = "Index";
 }
-@section Styles{
-
+@section styles{
     <style>
-        .btn {
-            padding: 5px 10px;
-            font-size: 16px;
+        .space{
+            padding:0px;
+            justify-content:initial;
+           
         }
-
-         .btn i {
-             margin-right: 3px;
-         }
-
-        #exportBtn{
-            background-color: lightseagreen;
-        }
-        .row {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #Reset{
-            background-color: palevioletred;
-        }
-        p{
-            margin-bottom:0px;
-        }
-
-        .Background {
-            background-color: linen;
-        }
-
     </style>
 }
-<div class="container Background">
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-@*@using (Html.BeginForm("Index", "Customer", FormMethod.Get))*@
-@*{*@
-<form method="post" asp-controller="Customer">
-    <div class="container">
-        <div class="row justify-content-md-end">
-            <div class="col col-lg-2">
-                <input type="text" name="search" id="search" class="form-control" value="@ViewBag.search"/>
-            </div>
-            <div class="col-md-auto">
-                <button type="submit" name="Submit" formaction="@Url.Action("Index")" class="btn btn-primary">Search</button>
-            </div>
-            <div class="col col-lg-2">
-                <button type="submit" name="Reset" id="Reset" formaction="@Url.Action("CookieDelete")" class="btn">Reset</button>
-            </div>
-        </div>
+<div class="container-fluid">
+    <h1>Index</h1>
+    <div class="mb-3">
+        <button onclick="location.href='@Url.Action("Create")'" class="btn btn-primary">Create New</button>
     </div>
+    <form method="post" asp-controller="Customer">
+        <div class="container-fluid">
+            <div class="row justify-content-start mb-3 space">
+                <div class="col-md-3">
+                    <input type="text" name="search" id="search" class="form-control" value="@ViewBag.search" />
+                </div>
+                <div class="col-md-1 pe-0 me-0" style="width:48px;">
+                    <button type="submit" name="Submit"  formaction="@Url.Action("Index")" class="btn btn-secondary">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="col-md-1 pe-0 me-0" style="width:48px;">
+                    <button type="submit" name="Reset" id="Reset" formaction="@Url.Action("CookieDelete")" class="btn btn-secondary">
+                        <i class="fa fa-refresh"></i>
+                    </button>
+                </div>
+                <div class="col-md-1 pe-0 me-0" style="width:48px;">
+                    <button id="exportBtn" class="btn btn-secondary">
+                        <i class="fas fa-file-download"></i>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
     </form>
-@*}*@
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                <p>FilePath</p>
-            </th>
-            <th>
-                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Name",orderby=ViewBag.orderby})">Name</a>
-            </th>
-            <th>
-                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Email",orderby=ViewBag.orderby})">Email</a>
-            </th>
-            <th>
-                <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page,search=ViewBag.search,sortby="Phone",orderby=ViewBag.orderby})">Phone</a>
-            </th>
-            <th>
-                <p>Address</p>
-            </th>
-          
-            <th>
-                <button id="exportBtn" class="btn btn-success">Export Customers </button>
-            </th>
-
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.CustomerPageList.Records)
-        {
-            var profileImage = Url.Content("~/ProfilePicture/" + item.FilePath);
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    <img src="@profileImage" style="width:70px;height:70px;border:2px solid black; padding:2px;margin:5px;" />
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Phone)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Address)
-                </td>
+                <th>
+                    <p>FilePath</p>
+                </th>
+                <th>
+                    <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Name", orderby = ViewBag.orderby})">Name</a>
+                </th>
+                <th>
+                    <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Email", orderby = ViewBag.orderby})">Email</a>
+                </th>
+                <th>
+                    <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Phone", orderby = ViewBag.orderby})">Phone</a>
+                </th>
+                <th>
+                    <p>Address</p>
+                </th>
 
-                <td>
-                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
-                    <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
-                    <button type="button" class="btn btn-secondary CustomerDetails" data-id="@item.Id"><i class="fa fa-eye"></i></button>
-                </td>
+                @*<th>
+                    <button id="exportBtn" class="btn btn-success">Export Customers</button>
+                </th>*@
+
+                <th></th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CustomerPageList.Records)
+            {
+                var profileImage = Url.Content("~/ProfilePicture/" + item.FilePath);
+                <tr>
+                    <td>
+                        <img src="@profileImage" class="rounded-circle" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Phone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
 
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
+                        <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                        <button type="button" class="btn btn-secondary CustomerDetails" data-id="@item.Id"><i class="fa fa-eye"></i></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.CustomerPageList.TotalPage; i++)
+        {
+            <li class="@(i == Model.CustomerPageList.Page ? "page-item active" : "page-item")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, search = ViewBag.search, sortby = ViewBag.sortby, orderby = ViewBag.orderby })">@i</a>
+            </li>
         }
-    </tbody>
-</table>
-
-
-<ul class="pagination">
-    @for (int i = 1; i <= Model.CustomerPageList.TotalPage; i++)
-    {
-        <li class="@(i == Model.CustomerPageList.Page ? "page-item active" : "page-item")">
-            <a class="page-link" href="@Url.Action("Index", new { page = i, search = ViewBag.search, sortby = ViewBag.sortby, orderby = ViewBag.orderby })">@i</a>
-        </li>
-    }
-</ul>
+    </ul>
 </div>
+
 <!-- Modal -->
 <div class="modal fade" id="CustomerModalWindow" tabindex="-1" aria-labelledby="CustomerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -138,7 +121,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="CustomerModalBody">
-                @* Partial View Called*@
+                @* Partial View Called *@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -151,58 +134,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.6/dist/sweetalert2.min.js"></script>
     <script>
-        $(function () {
-            $('.CustomerDetails').click(function () {
-                var customerId = $(this).attr('data-id');
-                $.ajax({
-                    url: '@Url.Action("GetCustomerDetails", "Customer")',
-                    data: { id: customerId },
-                    type: 'GET',
-                    success: function (data) {
-                        $('#CustomerModalBody').html(data);
-                        $("#CustomerModalWindow").modal("show");
-                    },
-                    error: function () {
-                        alert('Error loading customer details');
-                    }
-                });
-            });
-        });
-        $(function () {
-            $('#exportBtn').click(function () {
-                $.ajax({
-                    url: '@Url.Action("ExportCustomersCSV", "Customer")',
-                    type: 'GET',
-                    success: function (data) {
-                        var link = document.createElement('a');
-                        link.href = "data:text/csv;base64," + btoa(data);
-                        link.download = "Export.csv";
-                        link.click();
-                        document.body.appendChild(link);
-                        document.body.removeChild(link);
-                    },
-                    error: function (error) {
-                        alert('Error exporting data to CSV');
-                    }
-                });
-            });
-        });
-        //$(function () {
-        //    $("#Reset").click(function () {
-        //        $.ajax({
-        //            url: '@Url.Action("CookieDelete", "Customer")',
-        //            contentType: "application/json;charset=utf-8",
-        //            success: function (data) {
-        //                $("#search").val("");
-                      
-        //            },
-        //            error: function (jqXHR, textStatus, errorThrown) {
-        //                console.log("Error: " + errorThrown);
-        //            }
-        //        });
-        //    });
-        //});
+        // Your custom JavaScript code goes here
     </script>
 }
+

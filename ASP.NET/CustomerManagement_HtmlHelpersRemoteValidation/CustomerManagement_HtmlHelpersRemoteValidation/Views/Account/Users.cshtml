@@ -1,0 +1,44 @@
+﻿@model List<DataAccessLayer.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1>Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>City</th>
+            <th>Role</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.City</td>
+                <td>
+                    <select id="drpEmpList" class="role-dropdown form-select" asp-items="@(new SelectList(ViewBag.Roles, "Value", "Text",user.Roles[0].ToString()))">
+                        </select>
+                   @* @Html.DropDownList("",  ViewBag.Roles as SelectList, user.RoleId, new { @class = "role-dropdown form-select"})*@
+                    @*<select class="role-dropdown form-select" data-userid="@user.Id" asp-items="@ViewBag.Roles" value="@user.RoleId"></select>*@
+                    @*<select class="role-dropdown form-select" data-userid="@user.Id">
+                        <option value="">--Select Role--</option>
+                        <option value="Admin">Admin</option>
+                        <option value="Editor">Editor</option>
+                        <option value="Employee">Employee</option>
+                    </select>*@
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

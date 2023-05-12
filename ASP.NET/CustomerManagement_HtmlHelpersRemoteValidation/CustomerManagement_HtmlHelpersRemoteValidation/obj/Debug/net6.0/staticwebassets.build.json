@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fLG7+llhXOmnT4v9Dp3sLbd7g8P/Subt/Zj/ZJPgr6E=",
+  "Hash": "bEyHyIad2QSH3RpAV166Y7l/XjZpSU3a0cFtdf9HURU=",
   "Source": "CustomerManagement_HtmlHelpersRemoteValidation",
   "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomerManagement_HtmlHelpersRemoteValidation.bundle.scp.css"
     },
     {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\CustomStyle.css",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "css/CustomStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CustomStyle.css"
+    },
+    {
       "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\site.css",
       "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\site.min.css",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "css/site.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
       "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\favicon.ico",
@@ -85,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\CustomScript.js",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "js/CustomScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\CustomScript.js"
+    },
+    {
       "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\site.js",
       "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
       "SourceType": "Discovered",
@@ -100,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\site.min.js",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "js/site.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.min.js"
     },
     {
       "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2038,6 +2106,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProfilePicture\\CustomerFile_2023-05-10-09-26-51_.jpg"
+    },
+    {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\Unauthorized.jpg",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "ProfilePicture/Unauthorized.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProfilePicture\\Unauthorized.jpg"
     }
   ]
 }

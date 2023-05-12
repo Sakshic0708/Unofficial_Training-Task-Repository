@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,13 +24,16 @@ namespace DataAccessLayer.Models
         [Required]
         public string? PhoneNumber { get; set; }
         [Required]
+        //[DataType(DataType.Password)]
         public string? Password { get; set; }
         [Required]
+        //[DataType(DataType.Password)]
         [DisplayName("Confirm Password")]
         public string? ConfirmPassword { get; set; }
-        [DisplayName("Roles")]
-        public string? RoleId { get; set; }
-    
+        //[DisplayName("Roles")]
+        //public string? RoleId { get; set; }
+
+
     }
     public class LoginViewModel
     {

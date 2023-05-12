@@ -499,11 +499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagementSystem_MongoDB\\CommonLibrary\\CommonLibrary.csproj",
+      "projectUniqueName": "D:\\API Tasks\\ASP.NET\\CustomerManagementSystem_MongoDB\\CommonLibrary\\CommonLibrary.csproj",
       "projectName": "CommonLibrary",
-      "projectPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagementSystem_MongoDB\\CommonLibrary\\CommonLibrary.csproj",
+      "projectPath": "D:\\API Tasks\\ASP.NET\\CustomerManagementSystem_MongoDB\\CommonLibrary\\CommonLibrary.csproj",
       "packagesPath": "C:\\Users\\User45\\.nuget\\packages\\",
-      "outputPath": "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagementSystem_MongoDB\\CommonLibrary\\obj\\",
+      "outputPath": "D:\\API Tasks\\ASP.NET\\CustomerManagementSystem_MongoDB\\CommonLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User45\\AppData\\Roaming\\NuGet\\NuGet.Config",

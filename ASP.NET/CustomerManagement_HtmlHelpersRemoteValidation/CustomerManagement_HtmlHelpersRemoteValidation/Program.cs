@@ -6,6 +6,7 @@ using DataAccessLayer.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver.Core.Configuration;
 using System;
 
@@ -14,7 +15,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICustomerInterface, CustomerRepository>();
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = new PathString("/Account/AccessDenied");
+}
+);
 var mongoDbSetting = AppConfiguration.ConnectionString;
 var Name = AppConfiguration.DatabaseName;
 
@@ -23,6 +28,11 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
        .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>
        (mongoDbSetting,Name);
 
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.AddPolicy("RequireUserRole", policy =>
+//        policy.RequireRole("Admin"));
+//});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,6 +52,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Customer}/{action=Index}/{id?}");
+
 
 app.Run();

@@ -61,16 +61,36 @@
       "PackagePath": "staticwebassets\\ProfilePicture\\CustomerFile_2023-05-10-09-26-51_.jpg"
     },
     {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\Unauthorized.jpg",
+      "PackagePath": "staticwebassets\\ProfilePicture\\Unauthorized.jpg"
+    },
+    {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\CustomStyle.css",
+      "PackagePath": "staticwebassets\\css\\CustomStyle.css"
+    },
+    {
       "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
     },
     {
       "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\CustomScript.js",
+      "PackagePath": "staticwebassets\\js\\CustomScript.js"
+    },
+    {
       "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
     },
     {
       "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\lib\\bootstrap\\LICENSE",

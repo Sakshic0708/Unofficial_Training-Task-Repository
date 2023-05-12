@@ -8,3 +8,13 @@ D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.dll
 D:\Sakshi Chauhan\CreateAPI_.Net\API_Mongodb\CreateAPI_.Net\Day-2_Authentication_JWT\Day2_Autenticate_JWT\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.pdb
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.deps.json
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\bin\Debug\netcoreapp3.1\CommonLibrary.pdb
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.AssemblyReference.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfoInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.AssemblyInfo.cs
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.dll
+D:\API Tasks\ASP.NET\CustomerManagementSystem_MongoDB\CommonLibrary\obj\Debug\netcoreapp3.1\CommonLibrary.pdb

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\API Tasks\ASP.NET\CustomerManagement_HtmlHelpersRemoteValidation\CustomerManagement_HtmlHelpersRemoteValidation
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Roles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Customer/Create.cshtml]
@@ -58,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Unauthorized.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbmF1dGhvcml6ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/Email.cshtml]
