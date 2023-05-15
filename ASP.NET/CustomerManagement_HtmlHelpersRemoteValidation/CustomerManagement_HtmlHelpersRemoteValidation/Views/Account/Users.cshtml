@@ -20,25 +20,36 @@
     <tbody>
         @foreach (var user in Model)
         {
+            var RoleId = "";
+            if(user.Roles != null  && user.Roles.Count > 0)
+            {
+                RoleId = user.Roles.FirstOrDefault().ToString();
+            }
             <tr>
                 <td>@user.Email</td>
                 <td>@user.FirstName</td>
                 <td>@user.LastName</td>
                 <td>@user.City</td>
                 <td>
-                    <select id="drpEmpList" class="role-dropdown form-select" asp-items="@(new SelectList(ViewBag.Roles, "Value", "Text",user.Roles[0].ToString()))">
-                        </select>
-                   @* @Html.DropDownList("",  ViewBag.Roles as SelectList, user.RoleId, new { @class = "role-dropdown form-select"})*@
-                    @*<select class="role-dropdown form-select" data-userid="@user.Id" asp-items="@ViewBag.Roles" value="@user.RoleId"></select>*@
-                    @*<select class="role-dropdown form-select" data-userid="@user.Id">
-                        <option value="">--Select Role--</option>
-                        <option value="Admin">Admin</option>
-                        <option value="Editor">Editor</option>
-                        <option value="Employee">Employee</option>
-                    </select>*@
+                    <select class="form-select role-dropdown" data-user-id="@user.Id">
+                        <option value="">Select Role</option>
+                        @foreach(var role in ViewBag.Roles)
+                        {
+                            if(RoleId == role.Value)
+                            {
+                                <option value= "@role.Text" selected>@role.Text</option>
+                            }
+                            else
+                            {
+                                <option value="@role.Text">@role.Text</option>
+                            }
+                        }
+                    </select>
                 </td>
 
             </tr>
         }
     </tbody>
 </table>
+
+

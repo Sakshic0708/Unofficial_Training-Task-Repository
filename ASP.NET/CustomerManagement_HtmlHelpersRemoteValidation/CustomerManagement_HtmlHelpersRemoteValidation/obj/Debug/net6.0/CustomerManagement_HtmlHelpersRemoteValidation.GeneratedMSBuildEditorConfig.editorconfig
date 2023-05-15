@@ -20,20 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/CreateRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVSb2xlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Roles.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Account/Users.cshtml]
@@ -70,6 +62,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Home/Unauthorized.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVbmF1dGhvcml6ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Roles/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Roles/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Roles/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/API Tasks/ASP.NET/CustomerManagement_HtmlHelpersRemoteValidation/CustomerManagement_HtmlHelpersRemoteValidation/Views/Shared/EditorTemplates/Email.cshtml]

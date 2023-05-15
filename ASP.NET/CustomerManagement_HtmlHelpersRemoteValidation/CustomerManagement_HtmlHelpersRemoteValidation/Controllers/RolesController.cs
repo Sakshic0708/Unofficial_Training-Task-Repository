@@ -1,0 +1,124 @@
+﻿using DataAccessLayer.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System.Data;
+
+namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
+{
+    public class RolesController : Controller
+    {
+        private UserManager<ApplicationUser> _userManager { get; set; }
+        private RoleManager<ApplicationRole> _roleManager { get; set; }
+        private SignInManager<ApplicationUser> signInManager;
+        public RolesController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<ApplicationRole> roleManager)
+        {
+            _userManager = userManager;
+            this.signInManager = signInManager;
+            _roleManager = roleManager;
+        }
+        [Authorize(Roles = "Admin")]
+        public ActionResult Index()
+        {
+            var objRoles = _roleManager.Roles.ToList();
+            return View(objRoles);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult CreateRole() => View();
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public ActionResult CreateRole(RoleViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var objRole = _roleManager.CreateAsync(new ApplicationRole { Name = model.Name, Description = model.Description }).Result;
+                if (objRole.Succeeded)
+                    ViewBag.Message = "Role Created Successfully";
+                else
+                {
+                    foreach (IdentityError error in objRole.Errors)
+                        ModelState.AddModelError("", error.Description);
+                }
+            }
+            else
+            {
+                ViewBag.error = string.Join(";", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
+            }
+            return RedirectToAction("Index");
+        }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> EditRole(string id)
+        {
+            var role = await _roleManager.FindByIdAsync(id);
+            if (role == null)
+                return NotFound();
+
+            var model = new RoleViewModel
+            {
+                Name = role.Name,
+                Description = role.Description
+            };
+
+            return View(model);
+        }
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public ActionResult EditRole(RoleViewModel model, string Id)
+        {
+            if (ModelState.IsValid)
+            {
+                var role = _roleManager.FindByIdAsync(Id).Result;
+                if (role == null)
+                    return NotFound();
+
+                role.Name = model.Name;
+                role.Description = model.Description;
+
+                var result = _roleManager.UpdateAsync(role).Result;
+                if (result.Succeeded)
+                    ViewBag.Message = "Role Updated Successfully";
+                else
+                {
+                    foreach (IdentityError error in result.Errors)
+                        ModelState.AddModelError("", error.Description);
+                }
+            }
+            else
+            {
+                ViewBag.error = string.Join(";", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult DeleteRole(string Id)
+        {
+            var role = _roleManager.FindByIdAsync(Id).Result;
+            if (role != null)
+            {
+                var result = _roleManager.DeleteAsync(role).Result;
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return Json(new { success = false, error = "Failed to delete role." });
+                }
+            }
+            else
+            {
+                return Json(new { success = false, error = "Role not found." });
+            }
+        }
+
+
+
+    }
+}

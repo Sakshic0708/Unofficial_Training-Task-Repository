@@ -47,27 +47,55 @@
         window.location.href = url;
     });
 
-$('.role-dropdown').change(function () {
-    var userId = $(this).data('userid');
-    var roleName = $(this).val();
-    $.ajax({
-        type: 'POST',
-        url: '/Account/ChangeRole',
-        data: { userId: userId, roleName: roleName },
-        success: function () {
-            swal({
-                text: "Role changed successfully.",
-                icon: "success",
-                button: "ok"
-            });
-        },
-        error: function () {
-            swal({
-                text: "An error occurred while changing the role.",
-                icon: "error",
-                button: "ok"
-            });
-        }
+    $('.role-dropdown').change(function () {
+        var userId = $(this).data('user-id');
+        var roleName = $(this).val();
+        $.ajax({
+            type: 'POST',
+            url: '/Account/ChangeRole',
+            data: { Id: userId, role: roleName },
+            success: function () {
+                swal({
+                    text: "Role changed successfully.",
+                    icon: "success",
+                    button: "ok"
+                });
+            },
+            error: function () {
+                swal({
+                    text: "An error occurred while changing the role.",
+                    icon: "error",
+                    button: "ok"
+                });
+            }
+        });
     });
-});
+
+
+    //$('.delete-role-btn').click(function (e) {
+    //    e.preventdefault();
+
+    //    if (confirm("are you sure you want to delete this role?")) {
+    //        var roleid = $('#id').val();
+
+    //        $.ajax({
+    //            url: '/roles/deleterole',
+    //            type: 'post',
+    //            data: { id: roleid },
+    //            success: function (response) {
+    //                if (response.success) {
+    //                    alert(response.message);
+    //                    window.location.href = '/roles/roles'; // redirect to the roles page
+    //                } else {
+    //                    alert(response.error);
+    //                }
+    //            },
+    //            error: function (xhr, status, error) {
+    //                alert("failed to delete role: " + error);
+    //            }
+    //        });
+    //    }
+    //});
+
+
 });

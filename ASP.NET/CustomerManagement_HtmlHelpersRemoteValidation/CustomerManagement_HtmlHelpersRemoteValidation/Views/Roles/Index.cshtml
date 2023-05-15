@@ -1,0 +1,42 @@
+﻿@model List<DataAccessLayer.Models.ApplicationRole>
+
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<h1>Roles</h1>
+
+<p>
+    <button onclick="location.href='@Url.Action("CreateRole")'" class="btn btn-primary">Create New</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+             <td>
+                @Html.DisplayFor(modelItem => item.Name)
+             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+                <td>
+                    <a href="@Url.Action("EditRole","Roles", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
+
+                    <a href="@Url.Action("DeleteRole","Roles", new { id = item.Id })" class="btn btn-danger "><i class="fa fa-trash"></i></a>
+                     
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
