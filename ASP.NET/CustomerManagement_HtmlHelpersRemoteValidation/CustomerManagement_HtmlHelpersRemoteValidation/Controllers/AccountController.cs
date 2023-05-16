@@ -59,6 +59,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 
         [AllowAnonymous]
         public ActionResult Login()  => View();
+
         [HttpPost]
         [AllowAnonymous]
         public ActionResult Login(LoginViewModel model)
@@ -88,6 +89,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
         [Authorize(Roles ="Admin")]
         public ActionResult Users()
         {
@@ -101,28 +103,34 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         public ActionResult ChangeRole(string Id, string role)
         {
             var objResponse = new CommonJsonResponse();
+
             var user = _userManager.FindByIdAsync(Id).Result;
             if (user == null)
             {
                 return NotFound();
             }
+
             if (user.Roles != null && user.Roles.Count > 0)
             {
                 user.Roles.Clear();
                 _userManager.UpdateAsync(user);
             }
-            var Result = _userManager.AddToRoleAsync(user, role).Result;
-            if (!Result.Succeeded)
+
+            var result = _userManager.AddToRoleAsync(user, role).Result;
+            if (!result.Succeeded)
             {
-                ModelState.AddModelError("", "Role Updated Successfully");
+                objResponse.Status = 0;
+                objResponse.Message = "Role update failed";
                 return Json(objResponse);
             }
             else
             {
+                objResponse.Status = 1;
+                objResponse.Message = "Role updated successfully";
+                objResponse.data = role ;
                 return Json(objResponse);
             }
         }
-
 
         [HttpGet]
         [AllowAnonymous]

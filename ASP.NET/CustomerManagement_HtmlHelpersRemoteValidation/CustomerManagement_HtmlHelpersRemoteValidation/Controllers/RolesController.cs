@@ -1,4 +1,5 @@
-﻿using DataAccessLayer.Models;
+﻿using CustomerManagement_HtmlHelpersRemoteValidation.Common;
+using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 {
     public class RolesController : Controller
     {
+
         private UserManager<ApplicationUser> _userManager { get; set; }
         private RoleManager<ApplicationRole> _roleManager { get; set; }
         private SignInManager<ApplicationUser> signInManager;
@@ -70,6 +72,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         [HttpPost]
         public ActionResult EditRole(RoleViewModel model, string Id)
         {
+           
             if (ModelState.IsValid)
             {
                 var role = _roleManager.FindByIdAsync(Id).Result;
@@ -99,23 +102,29 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         [Authorize(Roles = "Admin")]
         public ActionResult DeleteRole(string Id)
         {
+            var objResponse = new CommonJsonResponse();
             var role = _roleManager.FindByIdAsync(Id).Result;
             if (role != null)
             {
                 var result = _roleManager.DeleteAsync(role).Result;
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index");
+                    objResponse.Status = 1;
+                    objResponse.Message = "Role deleted successfully";
                 }
                 else
                 {
-                    return Json(new { success = false, error = "Failed to delete role." });
+                    objResponse.Status = 0;
+                    objResponse.Message = "Failed to delete role";
                 }
             }
             else
             {
-                return Json(new { success = false, error = "Role not found." });
+                objResponse.Status = 404;
+                objResponse.Message = "Role not found";
             }
+
+            return Json(objResponse);
         }
 
 

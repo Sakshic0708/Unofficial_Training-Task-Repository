@@ -238,32 +238,32 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 return Json($"Email {email} is already in use");
             }
         }
-        [Authorize(Roles = "Employee,Editor,Admin")]
-        public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
-        {
-            var cookie = Request.Cookies["search"];
-            if (!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
+            [Authorize(Roles = "Employee,Editor,Admin")]
+            public ActionResult Index(string search, int page = 1, string sortby = "Name", string orderby = "asc")
             {
-                search = cookie;
+                var cookie = Request.Cookies["search"];
+                if (!string.IsNullOrEmpty(cookie) && string.IsNullOrEmpty(search))
+                {
+                    search = cookie;
+                }
+
+                var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize: 3);
+
+                ViewBag.search = search;
+                ViewBag.sortby = sortby;
+                //orderby = (orderby == "asc" ? "desc" : "asc");
+                ViewBag.orderby = orderby;
+
+                CookieOptions options = new CookieOptions();
+                options.Expires = DateTime.Now.AddMinutes(30);
+
+                if (search != null && search.Length > 0)
+                {
+                    CommonFunctions.CreateCookie(_httpContextAccessor, "search", search, options);
+                }
+
+                return View(objCustomers);
             }
-
-            var objCustomers = _customerservices.SearchCustomer(search, sortby, orderby, page, pageSize: 3);
-
-            ViewBag.search = search;
-            ViewBag.sortby = sortby;
-            orderby = (orderby == "asc" ? "desc" : "asc");
-            ViewBag.orderby = orderby;
-
-            CookieOptions options = new CookieOptions();
-            options.Expires = DateTime.Now.AddMinutes(30);
-
-            if (search != null && search.Length > 0)
-            {
-                CommonFunctions.CreateCookie(_httpContextAccessor, "search", search, options);
-            }
-
-            return View(objCustomers);
-        }
 
         public ActionResult ReadCookies()
         {

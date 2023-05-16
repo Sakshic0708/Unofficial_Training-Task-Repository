@@ -9,6 +9,8 @@
     <script src="~/lib/font-awesome/js/all.js"></script>
     <script src="~/lib/font-awesome/js/all.min.js"></script>
     <link rel="stylesheet" href="~/CustomerManagement_HtmlHelpersRemoteValidation.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.5/sweetalert2.min.js" integrity="sha512-jt82OWotwBkVkh5JKtP573lNuKiPWjycJcDBtQJ3BkMTzu1dyu4ckGGFmDPxw/wgbKnX9kWeOn+06T41BeWitQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     @if (IsSectionDefined("Styles"))
     {
         @RenderSection("Styles")
@@ -32,11 +34,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Index">Customer</a>
-                        </li>
+                        
                         @if (User.Identity.IsAuthenticated)
                         {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Index">Customer</a>
+                            </li>
                             if (User.IsInRole("Admin"))
                             {
                                 <li class="nav-item">
@@ -87,11 +90,9 @@
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    @*<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>*@
+  
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="~/js/site.min.js" asp-append-version="true"></script>
-    @*  <script src="~/js/site.min.js"></script>*@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -55,14 +55,14 @@
             url: '/Account/ChangeRole',
             data: { Id: userId, role: roleName },
             success: function () {
-                swal({
+                swal.fire({
                     text: "Role changed successfully.",
                     icon: "success",
                     button: "ok"
                 });
             },
             error: function () {
-                swal({
+                swal.fire({
                     text: "An error occurred while changing the role.",
                     icon: "error",
                     button: "ok"
@@ -72,30 +72,35 @@
     });
 
 
-    //$('.delete-role-btn').click(function (e) {
-    //    e.preventdefault();
+    $(document).on('click', '.RoleDelete-Btn', function (e) {
+        e.preventDefault();
+        var RoleId = $(this).data('id');
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You do not be able to revert this!"',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '/Roles/DeleteRole',
+                    type: 'POST',
+                    data: { id: RoleId },
+                    success: function (result) {
+                        var element = $('#' + RoleId);
+                        element.remove();
 
-    //    if (confirm("are you sure you want to delete this role?")) {
-    //        var roleid = $('#id').val();
-
-    //        $.ajax({
-    //            url: '/roles/deleterole',
-    //            type: 'post',
-    //            data: { id: roleid },
-    //            success: function (response) {
-    //                if (response.success) {
-    //                    alert(response.message);
-    //                    window.location.href = '/roles/roles'; // redirect to the roles page
-    //                } else {
-    //                    alert(response.error);
-    //                }
-    //            },
-    //            error: function (xhr, status, error) {
-    //                alert("failed to delete role: " + error);
-    //            }
-    //        });
-    //    }
-    //});
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+            }
+        });
+    });
 
 
 });

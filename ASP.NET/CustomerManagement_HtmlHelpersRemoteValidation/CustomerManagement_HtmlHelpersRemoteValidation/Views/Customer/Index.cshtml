@@ -8,7 +8,6 @@
         .space{
             padding:0px;
             justify-content:initial;
-           
         }
     </style>
 }
@@ -52,7 +51,7 @@
                     <p>FilePath</p>
                 </th>
                 <th>
-                    <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Name", orderby = ViewBag.orderby})">Name</a>
+                    <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Name", orderby = ViewBag.orderby})">Name</a> 
                 </th>
                 <th>
                     <a href="@Url.Action("Index", new { page = Model.CustomerPageList.Page, search = ViewBag.search, sortby = "Email", orderby = ViewBag.orderby})">Email</a>
@@ -93,10 +92,17 @@
                     </td>
 
                     <td>
-                        <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
-                        <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if ((User.IsInRole("Admin")) || (User.IsInRole("Editor")))
+                            {
+                                <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary"><i class="far fa-edit"></i></a>
+                                <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                            }
+                        }
                         <button type="button" class="btn btn-secondary CustomerDetails" data-id="@item.Id"><i class="fa fa-eye"></i></button>
                     </td>
+
                 </tr>
             }
         </tbody>

@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Role";
 }
+
 <h1>Role</h1>
 
 <hr />
@@ -18,19 +19,7 @@
         }
         <form asp-action="CreateRole">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save Changes" class="btn btn-primary mt-2" />
-            </div>
+            @Html.Partial("_RoleForm")
         </form>
     </div>
 </div>
@@ -39,8 +28,8 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-@section Scripts {
+<section Scripts>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-}
+</section>
