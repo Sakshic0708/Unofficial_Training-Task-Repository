@@ -31,11 +31,11 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public ActionResult CreateRole(RoleViewModel model)
+        public ActionResult CreateRole(RoleViewModel roleModel)
         {
             if (ModelState.IsValid)
             {
-                var objRole = _roleManager.CreateAsync(new ApplicationRole { Name = model.Name, Description = model.Description }).Result;
+                var objRole = _roleManager.CreateAsync(new ApplicationRole { Name = roleModel.Name, Description = roleModel.Description }).Result;
                 if (objRole.Succeeded)
                     ViewBag.Message = "Role Created Successfully";
                 else
@@ -70,7 +70,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public ActionResult EditRole(RoleViewModel model, string Id)
+        public ActionResult EditRole(RoleViewModel roleModel, string Id)
         {
            
             if (ModelState.IsValid)
@@ -79,8 +79,9 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 if (role == null)
                     return NotFound();
 
-                role.Name = model.Name;
-                role.Description = model.Description;
+                role.Name = roleModel.Name;
+                role.Description = roleModel.Description;
+                role.Description = roleModel.Description;
 
                 var result = _roleManager.UpdateAsync(role).Result;
                 if (result.Succeeded)

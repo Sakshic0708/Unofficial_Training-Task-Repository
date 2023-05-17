@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m8TOYN1iJfUuWdVnOf8LQF3QpfBX+X8pHlpLZNQo+1c=",
+  "Hash": "WTLYQi7V82bk46p8elj2ND7dMgOkehT+3sf45AZi2Bw=",
   "Source": "CustomerManagement_HtmlHelpersRemoteValidation",
   "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
   "Mode": "Default",
@@ -2140,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProfilePicture\\CustomerFile_2023-05-16-16-02-50_.jpg"
+    },
+    {
+      "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\CustomerFile_2023-05-16-18-55-57_.jpg",
+      "SourceId": "CustomerManagement_HtmlHelpersRemoteValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\",
+      "BasePath": "_content/CustomerManagement_HtmlHelpersRemoteValidation",
+      "RelativePath": "ProfilePicture/CustomerFile_2023-05-16-18-55-57_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProfilePicture\\CustomerFile_2023-05-16-18-55-57_.jpg"
     },
     {
       "Identity": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\Unauthorized.jpg",

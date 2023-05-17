@@ -15,6 +15,7 @@ namespace CommonLibrary
         public static string ValidIssuers = string.Empty;
         public static string SecretKey = string.Empty;
         public static string FilePath = string.Empty;
+        public static string CSVFilePath = string.Empty;
     
 
         static AppConfiguration()
@@ -32,6 +33,7 @@ namespace CommonLibrary
             ValidIssuers = root.GetSection("JWT").GetSection("ValidIssuer").Value;
             SecretKey = root.GetSection("JWT").GetSection("Secret").Value;
             FilePath = root.GetSection("ProfilePickPath").Value;
+            CSVFilePath = root.GetSection("ExportCSV").GetSection("CSVFilePath").Value;
          
 
         }

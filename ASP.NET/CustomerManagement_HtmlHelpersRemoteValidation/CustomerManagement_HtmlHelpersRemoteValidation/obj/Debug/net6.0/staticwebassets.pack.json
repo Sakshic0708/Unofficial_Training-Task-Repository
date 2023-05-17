@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\ProfilePicture\\CustomerFile_2023-05-16-16-02-50_.jpg"
     },
     {
+      "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\CustomerFile_2023-05-16-18-55-57_.jpg",
+      "PackagePath": "staticwebassets\\ProfilePicture\\CustomerFile_2023-05-16-18-55-57_.jpg"
+    },
+    {
       "Id": "D:\\API Tasks\\ASP.NET\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\ProfilePicture\\Unauthorized.jpg",
       "PackagePath": "staticwebassets\\ProfilePicture\\Unauthorized.jpg"
     },

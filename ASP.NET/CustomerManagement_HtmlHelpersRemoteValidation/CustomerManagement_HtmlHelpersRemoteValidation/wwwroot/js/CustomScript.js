@@ -20,32 +20,25 @@
         });
     });
 
-    //$('#exportBtn').click(function () {
-    //    alert('ok');
-    //    $.ajax({
-    //        url: '/ExportCustomersCSV/Customer',
-    //        type: 'GET',
-    //        success: function (data) {
-    //            var link = document.createElement('a');
-    //            link.href = "data:text/csv;base64," + btoa(data);
-    //            link.download = "Export.csv";
-    //            link.click();
-    //            document.body.appendChild(link);
-    //            document.body.removeChild(link);
-    //        },
-    //        error: function (error) {
-    //            alert('Error exporting data to CSV');
-    //        }
-    //    });
-    //});
-
-    $('#exportBtn').click(function (e) {
-        e.preventDefault();
-        var baseUrl = window.location.href.split('?')[0]; // Get the base URL of the current page
-        var url = baseUrl + 'Customer/ExportCustomersCSV?downloadCSV=true';
-
-        window.location.href = url;
+    $('#exportBtn').click(function () {
+        $.ajax({
+            type: 'GET',
+            url: '/Customer/ExportCustomersCSV',
+            success: function (data) {
+                var link = document.createElement('a');
+                link.href = "data:text/csv;base64," + btoa(data);
+                link.download = "Export.csv";
+                link.click();
+                //document.body.appendChild(link);
+                //document.body.removeChild(link);
+            },
+            error: function (error) {
+                alert('Error exporting data to CSV');
+            }
+        });
     });
+
+  
 
     $('.role-dropdown').change(function () {
         var userId = $(this).data('user-id');

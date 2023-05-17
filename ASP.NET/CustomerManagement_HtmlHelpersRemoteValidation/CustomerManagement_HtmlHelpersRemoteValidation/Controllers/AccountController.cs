@@ -24,17 +24,17 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         }
        public ActionResult Register()
         {
-            var model = new RegisterViewModel();
+            var registerModel = new RegisterViewModel();
             //ViewBag.Roles = _roleManager.Roles.Select(p=> new SelectListItem { Text=p.Name,Value=p.Name}).ToList();
-            return View(model);
+            return View(registerModel);
         }
          [HttpPost]
-        public ActionResult Register(RegisterViewModel model)
+        public ActionResult Register(RegisterViewModel registerModel)
         {
             if(ModelState.IsValid)
             {
-                var applicationuser = new ApplicationUser() {FirstName=model.FirstName, LastName=model.LastName,Address=model.Address,City=model.City,Email=model.Email,PhoneNumber=model.PhoneNumber,UserName=model.Email};
-                var objUser = _userManager.CreateAsync(applicationuser,model.Password).Result;
+                var applicationuser = new ApplicationUser() {FirstName= registerModel.FirstName, LastName=registerModel.LastName,Address= registerModel.Address,City=registerModel.City,Email=registerModel.Email,PhoneNumber=registerModel.PhoneNumber,UserName= registerModel.Email};
+                var objUser = _userManager.CreateAsync(applicationuser,registerModel.Password).Result;
               
                 if (objUser.Succeeded)
                 {
@@ -54,7 +54,7 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             }
             //Selected item in dropdown list
             //ViewBag.Roles = _roleManager.Roles.Select(p => new SelectListItem { Text = p.Name, Value = p.Name }).ToList();
-            return View(model);
+            return View(registerModel);
         }
 
         [AllowAnonymous]
@@ -62,26 +62,26 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public ActionResult Login(LoginViewModel model)
+        public ActionResult Login(LoginViewModel loginModel)
         {
             if(ModelState.IsValid)
             {
-                ApplicationUser objUser = _userManager.FindByEmailAsync(model.Email).Result;
+                ApplicationUser objUser = _userManager.FindByEmailAsync(loginModel.Email).Result;
                 if(objUser != null)
                 {
-                    var result = signInManager.PasswordSignInAsync(objUser,model.Password,false,true).Result;
+                    var result = signInManager.PasswordSignInAsync(objUser, loginModel.Password,false,true).Result;
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "Customer");
                     }
                 }
-                ModelState.AddModelError(nameof(model.Email), "Login Failed:Invalid Email Or Password");
+                ModelState.AddModelError(nameof(loginModel.Email), "Login Failed:Invalid Email Or Password");
             }
             else
-            {
+            {                   
                 ViewBag.error = string.Join(";", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
             }
-            return View(model); 
+            return View(loginModel); 
         }
         [Authorize]
         public async Task<IActionResult> Logout()
@@ -90,12 +90,12 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin")]                                                                                                               
         public ActionResult Users()
         {
-            var objUsers =  _userManager.Users.ToList();
+            var registerModel =  _userManager.Users.ToList();
             ViewBag.Roles = _roleManager.Roles.ToList().Select(p=> new SelectListItem { Text=p.Name,Value=p.Id.ToString()}).ToList();
-            return View(objUsers);
+            return View(registerModel);
         }
 
         [HttpPost]

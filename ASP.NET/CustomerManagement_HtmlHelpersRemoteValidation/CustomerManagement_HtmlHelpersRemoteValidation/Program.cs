@@ -20,6 +20,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = new PathString("/Account/AccessDenied");
 }
 );
+builder.Services.AddRazorPages();
 var mongoDbSetting = AppConfiguration.ConnectionString;
 var Name = AppConfiguration.DatabaseName;
 
@@ -49,6 +50,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",

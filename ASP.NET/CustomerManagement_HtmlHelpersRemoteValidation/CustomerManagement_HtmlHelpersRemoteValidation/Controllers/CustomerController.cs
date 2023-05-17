@@ -33,15 +33,13 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
         // GET: CustomerController/Create
         public ActionResult Create()
         {
-
-            Customer model = new Customer();
-            model.Id = new ObjectId();
-            return View(model);
+            Customer ObjCustomer = new Customer();
+            ObjCustomer.Id = new ObjectId();
+            return View(ObjCustomer);
         }
         [Authorize(Roles = "Editor,Admin")]
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(Customer customer)
+        public ActionResult Create(Customer customerModel)
         {
             if (ModelState.IsValid)
             {
@@ -53,12 +51,12 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                         var Extension = Path.GetExtension(Request.Form.Files[0].FileName);
                         var StoredFileName = "CustomerFile_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "_" + Extension;
                         var FilePath = AppConfiguration.FilePath + StoredFileName;
-                        customer.FilePath = StoredFileName;
+                        customerModel.FilePath = StoredFileName;
                         using (var stream = new FileStream(FilePath, FileMode.Create))
                         {
                             file.CopyTo(stream);
                         }
-                        _customerservices.AddCustomer(customer);
+                        _customerservices.AddCustomer(customerModel);
                     }
                     return RedirectToAction(nameof(Index));
                 }
@@ -66,9 +64,9 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                 {
                     ModelState.AddModelError("", $"Error creating customer: {ex.Message}");
                 }
-                return View(customer);
+                return View(customerModel);
             }
-            return View(customer);
+            return View(customerModel);
 
         }
         [Authorize(Roles = "Editor,Admin")]
@@ -103,9 +101,9 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             {
                 var objCustomers = _customerservices.GetCustomers();
                 var FileName = "Export.csv";
-                var FilePath = "D:\\Sakshi Chauhan\\CreateAPI_.Net\\CustomerManagement_HtmlHelpersRemoteValidation\\CustomerManagement_HtmlHelpersRemoteValidation\\wwwroot\\" + FileName;
-                CommonFunctions.WriteCSV(objCustomers, FilePath);
-                byte[] fileBytes = System.IO.File.ReadAllBytes(FilePath);
+                var PathCSV =  AppConfiguration.CSVFilePath + FileName;
+                CommonFunctions.WriteCSV(objCustomers, PathCSV);
+                byte[] fileBytes = System.IO.File.ReadAllBytes(PathCSV);
                 return File(fileBytes, "text/csv", FileName);
             }
             catch
@@ -142,8 +140,8 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
             }
         [Authorize(Roles = "Editor,Admin")]
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(string id, Customer customer)
+        //[ValidateAntiForgeryToken]
+        public ActionResult Edit(string id, Customer customerModel)
         {
             try
             {
@@ -154,34 +152,35 @@ namespace CustomerManagement_HtmlHelpersRemoteValidation.Controllers
                     if (Request.Form.Files.Count > 0)
                     {
                         //Delete the existing file if it exists
-                        if (!string.IsNullOrEmpty(customer.FilePath))
+                        if (!string.IsNullOrEmpty(customerModel.FilePath))
                         {
-                            var existingFilePath = AppConfiguration.FilePath + customer.FilePath;
+                            var existingFilePath = AppConfiguration.FilePath + customerModel.FilePath;
                             if (System.IO.File.Exists(existingFilePath))
                             {
                                 System.IO.File.Delete(existingFilePath);
                             }
                         }
-                        var file = Request.Form.Files[0];
+                        var File = Request.Form.Files[0];
                         var Extension = Path.GetExtension(Request.Form.Files[0].FileName);
                         var StoredFileName = "CustomerFile_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "_" + Extension;
                         var FilePath = AppConfiguration.FilePath + StoredFileName;
 
                         using (var stream = new FileStream(FilePath, FileMode.Create))
                         {
-                            file.CopyTo(stream);
+                            File.CopyTo(stream);
+                            File.CopyTo(stream);
                         }
-                        customer.FilePath = StoredFileName;
+                        customerModel.FilePath = StoredFileName;
                     }
 
-                    customer.Id = objectId;
-                    _customerservices.UpdateCustomer(customer);
+                    customerModel.Id = objectId;
+                    _customerservices.UpdateCustomer(customerModel);
 
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    return View(customer);
+                    return View(customerModel);
                 }
             }
             catch (Exception ex)

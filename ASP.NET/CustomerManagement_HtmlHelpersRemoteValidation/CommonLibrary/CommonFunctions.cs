@@ -10,13 +10,13 @@ namespace CommonLibrary
 {
     public static class CommonFunctions
     {
-        public static void WriteCSV<Customer>(List<Customer> items, string path)
+        public static void WriteCSV<T>(List<T> items, string path)
         {
-            Type itemType = typeof(Customer);
+            Type itemType = typeof(T);
             var props = itemType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
                                 .OrderBy(p => p.Name);
 
-            using (var writer = new StreamWriter(path))
+            using (var writer = new StreamWriter(path, false)) // Set append parameter to false
             {
                 writer.WriteLine(string.Join(", ", props.Select(p => p.Name)));
 
@@ -26,6 +26,7 @@ namespace CommonLibrary
                 }
             }
         }
+
         public static void CreateCookie(IHttpContextAccessor _httpContextAccessor, string Name, string value, CookieOptions options)
         {
             _httpContextAccessor.HttpContext.Response.Cookies.Append(Name, value, options);
